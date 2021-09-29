@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title id="title">掌上西京OA APP唤醒</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-size: 0;
+      }
+
+      .ui-bg {
+        background: #fff;
+        padding-top: 17vh;
+      }
+
+      .ui-bg > img {
+        width: 100%;
+      }
+
+      .ui-blank {
+        height: 10vh;
+        width: 100vw;
+        background: linear-gradient(
+          179.75deg,
+          #f4f5ff 0.22%,
+          rgba(255, 255, 255, 0) 76.46%
+        );
+      }
+
+      .ui-container {
+        margin-top: 10px;
+        line-height: 30px;
+        padding: 0 20px;
+        text-align: center;
+        color: #333;
+      }
+
+      .ui-container h3 {
+        font-size: 18px;
+        line-height: 18px;
+        font-weight: normal;
+        margin-bottom: 16px;
+      }
+
+      .ui-container p {
+        font-size: 14px;
+      }
+
+      .ui-container a {
+        display: block;
+        width: 80px;
+        margin: 32px auto 0;
+        color: #0fcaba;
+        border: 1px solid #0fcaba;
+        border-radius: 30px;
+        font-size: 14px;
+      }
+    </style>
+    <script src="style/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <div class="ui-bg">
+      <img src="./style/OA.png" alt="" />
+      <div class="ui-blank"></div>
+      <div class="ui-container">
+        <h3>正在打开OA系统</h3>
+        <p>若长时间无反应，请点击刷新重新连接</p>
+        <a class="ui-downapp" onclick="appLaunch()">刷新</a>
+      </div>
+    </div>
+  </body>
+  <script>
+    // 获取客户端信息
+    var u = navigator.userAgent,
+      app = navigator.appVersion;
+    var isAndroid = u.indexOf("Android") > -1 || u.indexOf("Linux") > -1; //android终端或者uc浏览器
+    var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+    // 获取用户信息
+    // ios
+    function setupWebViewJavascriptBridge(callback) {
+      if (window.WebViewJavascriptBridge) {
+        return callback(WebViewJavascriptBridge);
+      }
+      if (window.WVJBCallbacks) {
+        return window.WVJBCallbacks.push(callback);
+      }
+      window.WVJBCallbacks = [callback];
+      var WVJBIframe = document.createElement("iframe");
+      WVJBIframe.style.display = "none";
+      WVJBIframe.src = "wvjbscheme://__BRIDGE_LOADED__";
+      document.documentElement.appendChild(WVJBIframe);
+      setTimeout(function () {
+        document.documentElement.removeChild(WVJBIframe);
+      }, 0);
+    }
+    // android
+    function getUserInfoForAndroid() {
+      return JSON.parse(yspCheckIn.getUserInfo());
+    }
+    // 入口
+    function appLaunch() {
+      if (isAndroid && yspCheckIn) {
+        var userInfo = getUserInfoForAndroid();
+        var loginParams = {
+          name: userInfo.loginName,
+          password: userInfo.password,
+        };
+        loginParams = encodeURI(JSON.stringify(loginParams));
+        window.location.href = "seeyon://m3?loginParams=" + loginParams;
+      } else if (isiOS) {
+        setupWebViewJavascriptBridge(function (bridge) {
+          //客户端已经注册好一个名为“getUserInfo”的方法，H5直接进行调用（方法名也为“getUserInfo”）就行，调用的时候可以传客户端需要的参数
+          bridge &&
+            bridge.callHandler(
+              "getUserInfo",
+              function responseCallback(responseData) {
+                var loginParams = {
+                  name: responseData.account,
+                  password: responseData.password,
+                  ticket: "",
+                  serverUrl: " http://59.75.39.40:80",
+                  ext: "",
+                };
+                loginParams = encodeURI(JSON.stringify(loginParams));
+                // window.location.href = `seeyonM3Phone://m3?loginParams=${loginParams}`;
+                window.location.href = "seeyonM3Phone://m3";
+                // alert(loginParams);
+                // window.location.href = `seeyonM3Phone://m3?loginParams=${loginParams}`;
+                // window.location.href = encodeURI(`seeyon://m3?oginParams={"name":"${loginParams.name}","password":"${loginParams.password}"}`);
+              }
+            );
+        });
+      }
+    }
+    // 页面加载完成自动调用
+    $(function () {
+      appLaunch();
+    });
+  </script>
+</html>

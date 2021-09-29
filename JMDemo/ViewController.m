@@ -1,0 +1,143 @@
+//
+//  ViewController.m
+//  JMDemo
+//
+//  Created by liujiemin on 2021/7/21.
+//
+
+#import "ViewController.h"
+#import "JMData.h"
+#import "JMCATransitionVC.h"
+#import "JMWebviewVC.h"
+#import "JMPopVC.h"
+#import "JMGCDVC.h"
+#import "JMUIWebViewVC.h"
+#import "JMRuntimeMsgSendVC.h"
+#import "JMOperatorVC.h"
+#import "JMBlockVC.h"
+#import "JMKVOVC.h"
+
+@interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
+
+// tableView
+@property (nonatomic, strong) UITableView *tableView;
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+    [self prepareUI];
+}
+
+- (void)prepareUI {
+    self.title = @"JMDemo";
+    self.view.backgroundColor = [UIColor whiteColor];
+    
+    [self.view addSubview:self.tableView];
+    
+    [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.edges.equalTo(self.view);
+    }];
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return [JMData getTableViewData].count;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 65.0;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *showUserInfoCellIdentifier = @"ShowUserInfoCell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:showUserInfoCellIdentifier];
+    if (cell == nil)
+    {
+        // Create a cell to display an ingredient.
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:showUserInfoCellIdentifier];
+    }
+        
+    // Configure the cell.
+    NSString *title = [[JMData getTableViewData] objectAtIndex:indexPath.row];
+    cell.textLabel.text = title;
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    switch (indexPath.row) {
+        case 0:
+        {
+            JMCATransitionVC *vc = [[JMCATransitionVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 1:
+        {
+            JMWebviewVC *vc = [[JMWebviewVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 2:
+        {
+            JMUIWebViewVC *vc = [[JMUIWebViewVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 3:
+        {
+            JMPopVC *vc = [[JMPopVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 4:
+        {
+            JMGCDVC *vc = [[JMGCDVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 5:
+        {
+            JMRuntimeMsgSendVC *vc = [[JMRuntimeMsgSendVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 6:
+        {
+            JMOperatorVC *vc = [[JMOperatorVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 7:
+        {
+            JMBlockVC *vc = [[JMBlockVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 8:
+        {
+            JMKVOVC *vc = [[JMKVOVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+            
+        default:
+            break;
+    }
+    
+    // 取消选中状态
+    [tableView deselectRowAtIndexPath:indexPath animated:NO];
+}
+
+- (UITableView *)tableView {
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] init];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+    }
+    return _tableView;
+}
+
+@end
