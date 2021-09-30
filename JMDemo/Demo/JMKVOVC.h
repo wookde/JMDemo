@@ -15,7 +15,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (nonatomic, copy) NSString *nickName;
 
-@property (nonatomic, copy) NSString *suibian;
+@property (nonatomic, copy) NSString *strCopy;
+
+@property (nonatomic, strong) NSString *strStrong;
+
+@property (nonatomic, weak) NSString *strWeak;
 
 @end
 

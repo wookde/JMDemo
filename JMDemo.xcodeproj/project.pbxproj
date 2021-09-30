@@ -28,6 +28,7 @@
 		4B2EFF1E26CCAB33008163B6 /* JMGCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2EFF1D26CCAB33008163B6 /* JMGCDVC.m */; };
 		4B33160926FCB14800F3C295 /* JMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B33160826FCB14800F3C295 /* JMPerson.m */; };
 		4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B33160B26FCB16300F3C295 /* JMStudent.m */; };
+		4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */; };
 		4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4808426FC2AAD0065F11E /* JMRuntimeMsgSendVC.m */; };
 		5E8D2BDC28E9EBA55B28D6A6 /* Pods_JMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */; };
 		CDFC66877F6FF75288EAEC2F /* Pods_JMDemo_JMDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */; };
@@ -94,6 +95,8 @@
 		4B33160826FCB14800F3C295 /* JMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMPerson.m; sourceTree = "<group>"; };
 		4B33160A26FCB16300F3C295 /* JMStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMStudent.h; sourceTree = "<group>"; };
 		4B33160B26FCB16300F3C295 /* JMStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMStudent.m; sourceTree = "<group>"; };
+		4BE0E4672705AF8600E34869 /* JMKVOVC+JMCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMKVOVC+JMCategory.h"; sourceTree = "<group>"; };
+		4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JMKVOVC+JMCategory.m"; sourceTree = "<group>"; };
 		4BE4808326FC2AAD0065F11E /* JMRuntimeMsgSendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMRuntimeMsgSendVC.h; sourceTree = "<group>"; };
 		4BE4808426FC2AAD0065F11E /* JMRuntimeMsgSendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMRuntimeMsgSendVC.m; sourceTree = "<group>"; };
 		4E55D79F5460D3955B94EFB7 /* Pods-JMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JMDemoTests/Pods-JMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -192,6 +195,8 @@
 				4B1BA0F9270068E500A7BE74 /* JMBlockVC.m */,
 				4B1BA0FB27019F7D00A7BE74 /* JMKVOVC.h */,
 				4B1BA0FC27019F7D00A7BE74 /* JMKVOVC.m */,
+				4BE0E4672705AF8600E34869 /* JMKVOVC+JMCategory.h */,
+				4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -501,6 +506,7 @@
 				182D6D2D26A7B7CB007F2019 /* JMCATransitionVC.m in Sources */,
 				182D6CFC26A7B371007F2019 /* ViewController.m in Sources */,
 				4B2EFF1E26CCAB33008163B6 /* JMGCDVC.m in Sources */,
+				4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */,
 				4B1BA0FA270068E500A7BE74 /* JMBlockVC.m in Sources */,
 				4B1BA0FD27019F7D00A7BE74 /* JMKVOVC.m in Sources */,
 				1847F41726BA456F00836E1E /* JMPopVC.m in Sources */,

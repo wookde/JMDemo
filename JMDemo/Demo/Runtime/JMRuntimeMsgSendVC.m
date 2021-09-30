@@ -7,6 +7,8 @@
 
 #import "JMRuntimeMsgSendVC.h"
 #import <objc/runtime.h>
+#import "JMPerson.h"
+#import "JMStudent.h"
 
 @interface JMCat : NSObject
 
@@ -216,6 +218,8 @@
     [JMAnimal eat];
     JMAnimal *animal = [[JMAnimal alloc] init];
     [animal eat];
+    
+    [JMStudent action];
 }
 
 - (void)prepareUI {

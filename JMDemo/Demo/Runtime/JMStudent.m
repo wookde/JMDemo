@@ -17,4 +17,14 @@
     NSLog(@"JMStudent initialize");
 }
 
+
++ (void)action {
+    [self eat];
+    [JMStudent eat];
+}
+
++ (void)eat {
+    NSLog(@"Student Eat");
+}
+
 @end

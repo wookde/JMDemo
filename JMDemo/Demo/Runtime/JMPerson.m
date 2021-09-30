@@ -20,4 +20,8 @@
     NSLog(@"Person initialize");
 }
 
++ (void)eat {
+    NSLog(@"Person Eat");
+}
+
 @end
