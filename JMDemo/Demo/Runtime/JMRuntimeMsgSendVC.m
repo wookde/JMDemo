@@ -14,10 +14,18 @@
 
 - (void)eat;
 + (void)eat;
+- (void)sleep;
 
 @end
 
 @implementation JMCat
+
+// Method Swizzling
+//+ (void)load {
+//    Method m1 = class_getInstanceMethod(self, @selector(eat));
+//    Method m2 = class_getInstanceMethod(self, @selector(sleep));
+//    method_exchangeImplementations(m1, m2);
+//}
 
 + (void)initialize {
     NSLog(@"I am JMCat..initialize Function!");
@@ -28,6 +36,10 @@
 }
 
 + (void)eat {
+    NSLog(@"%s",__func__);
+}
+
+- (void)sleep {
     NSLog(@"%s",__func__);
 }
 
