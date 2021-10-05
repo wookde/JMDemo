@@ -20,7 +20,8 @@
         @"Runtime 消息机制",
         @"运营商",
         @"Block",
-        @"KVO"
+        @"KVO",
+        @"KVC"
     ];
     return data;
 }

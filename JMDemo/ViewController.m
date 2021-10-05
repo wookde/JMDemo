@@ -16,6 +16,7 @@
 #import "JMOperatorVC.h"
 #import "JMBlockVC.h"
 #import "JMKVOVC.h"
+#import "JMKVCVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -119,6 +120,12 @@
         case 8:
         {
             JMKVOVC *vc = [[JMKVOVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 9:
+        {
+            JMKVCVC *vc = [[JMKVCVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
