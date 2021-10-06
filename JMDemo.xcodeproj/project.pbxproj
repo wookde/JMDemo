@@ -17,6 +17,7 @@
 		1847F41726BA456F00836E1E /* JMPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41626BA456F00836E1E /* JMPopVC.m */; };
 		1847F41A26BA461D00836E1E /* JMData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41926BA461D00836E1E /* JMData.m */; };
 		18CB8E89270BFBFC00E61628 /* JMKVCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E87270BFBFB00E61628 /* JMKVCVC.m */; };
+		18CB8E8D270D5BB400E61628 /* JMRunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E8C270D5BB400E61628 /* JMRunLoopVC.m */; };
 		18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */; };
 		434C873C4DDD071A7FA104E6 /* Pods_JMDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DF1C6A6620E0FA84C1BD8F /* Pods_JMDemoTests.framework */; };
 		4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BA0F626FDCA4300A7BE74 /* JMOperatorVC.m */; };
@@ -77,6 +78,8 @@
 		1847F41926BA461D00836E1E /* JMData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMData.m; sourceTree = "<group>"; };
 		18CB8E87270BFBFB00E61628 /* JMKVCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKVCVC.m; sourceTree = "<group>"; };
 		18CB8E88270BFBFC00E61628 /* JMKVCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKVCVC.h; sourceTree = "<group>"; };
+		18CB8E8B270D5BB400E61628 /* JMRunLoopVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JMRunLoopVC.h; path = ../../../../Documents/JMRunLoopVC.h; sourceTree = "<group>"; };
+		18CB8E8C270D5BB400E61628 /* JMRunLoopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = JMRunLoopVC.m; path = ../../../../Documents/JMRunLoopVC.m; sourceTree = "<group>"; };
 		18FE54A926AE5F07007FD56B /* JMWebviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMWebviewVC.h; sourceTree = "<group>"; };
 		18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMWebviewVC.m; sourceTree = "<group>"; };
 		38734805B0D259A7A18CF75A /* Pods-JMDemo-JMDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo-JMDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 				4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */,
 				18CB8E88270BFBFC00E61628 /* JMKVCVC.h */,
 				18CB8E87270BFBFB00E61628 /* JMKVCVC.m */,
+				18CB8E8B270D5BB400E61628 /* JMRunLoopVC.h */,
+				18CB8E8C270D5BB400E61628 /* JMRunLoopVC.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -516,6 +521,7 @@
 				4B1BA0FA270068E500A7BE74 /* JMBlockVC.m in Sources */,
 				4B1BA0FD27019F7D00A7BE74 /* JMKVOVC.m in Sources */,
 				1847F41726BA456F00836E1E /* JMPopVC.m in Sources */,
+				18CB8E8D270D5BB400E61628 /* JMRunLoopVC.m in Sources */,
 				182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */,
 				4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */,
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,

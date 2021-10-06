@@ -17,6 +17,7 @@
 #import "JMBlockVC.h"
 #import "JMKVOVC.h"
 #import "JMKVCVC.h"
+#import "JMRunLoopVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -126,6 +127,12 @@
         case 9:
         {
             JMKVCVC *vc = [[JMKVCVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 10:
+        {
+            JMRunLoopVC *vc = [[JMRunLoopVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

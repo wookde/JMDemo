@@ -21,7 +21,8 @@
         @"运营商",
         @"Block",
         @"KVO",
-        @"KVC"
+        @"KVC",
+        @"RunLoop"
     ];
     return data;
 }
