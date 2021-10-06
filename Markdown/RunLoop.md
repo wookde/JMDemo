@@ -25,7 +25,7 @@ NSRunLoop是不开源的，CDRunLoop是开源的
 
 - CFRunLoopMode
 
-![CFRunLoopMode](/Users/liujiemin/Library/Application Support/typora-user-images/image-20211006104440229.png)
+![CFRunLoopMode](https://i.loli.net/2021/10/06/XF1mnYVgHTKrN6S.png)
 
 - CFRunLoopSource
 
@@ -66,11 +66,11 @@ NSRunLoop是不开源的，CDRunLoop是开源的
 
 🌰：main函数调用后会调用UIApplicationMain方法，方法内部会启动主线程的RunLoop，经过一系列处理，主线程的RunLoop处于休眠状态，此时点击一下屏幕会产生一个mach-port，会转换成一个Source1，唤醒主线程，然后运行处理，当程序被杀死就会退出RunLoop，线程被杀死。
 
-#### 5、RunLoop的核心
+### 6、RunLoop的核心
 
 ![RunLoop的核心](https://i.loli.net/2021/10/06/X3apHhluIMUvWst.png)
 
-#### 6、RunLoop与NSTimer
+### 7、RunLoop与NSTimer
 
 ![RunLoop与NSTimer](https://i.loli.net/2021/10/06/vYBmzUD7hp1io8M.png)
 
@@ -82,7 +82,7 @@ NSRunLoop是不开源的，CDRunLoop是开源的
 
 ![CFRunLoopAddItemToCommonModes](https://i.loli.net/2021/10/06/lf9YFCywdxLQGp6.png)
 
-#### 7、RunLoop与多线程
+### 8、RunLoop与多线程
 
 ![RunLoop与多线程](https://i.loli.net/2021/10/06/4F5K7XYDjatbue1.png)
 
@@ -99,3 +99,4 @@ NSRunLoop是不开源的，CDRunLoop是开源的
 - 创建一个常驻线程
 
 ![常驻线程](https://i.loli.net/2021/10/06/N16PgMA8H5LzmOX.png)
+
