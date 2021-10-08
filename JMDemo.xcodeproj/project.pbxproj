@@ -33,6 +33,10 @@
 		4B33160926FCB14800F3C295 /* JMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B33160826FCB14800F3C295 /* JMPerson.m */; };
 		4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B33160B26FCB16300F3C295 /* JMStudent.m */; };
 		4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */; };
+		4BE0E46D270FF67F00E34869 /* JMDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E46C270FF67F00E34869 /* JMDelegateVC.m */; };
+		4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E46F270FF79C00E34869 /* JMDelegateObject.m */; };
+		4BE0E47327101D1100E34869 /* JMObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E47227101D1100E34869 /* JMObjectA.m */; };
+		4BE0E47627101D1F00E34869 /* JMObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E47527101D1F00E34869 /* JMObjectB.m */; };
 		4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4808426FC2AAD0065F11E /* JMRuntimeMsgSendVC.m */; };
 		5E8D2BDC28E9EBA55B28D6A6 /* Pods_JMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */; };
 		CDFC66877F6FF75288EAEC2F /* Pods_JMDemo_JMDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */; };
@@ -109,6 +113,14 @@
 		4B33160B26FCB16300F3C295 /* JMStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMStudent.m; sourceTree = "<group>"; };
 		4BE0E4672705AF8600E34869 /* JMKVOVC+JMCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMKVOVC+JMCategory.h"; sourceTree = "<group>"; };
 		4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JMKVOVC+JMCategory.m"; sourceTree = "<group>"; };
+		4BE0E46B270FF67F00E34869 /* JMDelegateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMDelegateVC.h; sourceTree = "<group>"; };
+		4BE0E46C270FF67F00E34869 /* JMDelegateVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMDelegateVC.m; sourceTree = "<group>"; };
+		4BE0E46E270FF79C00E34869 /* JMDelegateObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMDelegateObject.h; sourceTree = "<group>"; };
+		4BE0E46F270FF79C00E34869 /* JMDelegateObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMDelegateObject.m; sourceTree = "<group>"; };
+		4BE0E47127101D1100E34869 /* JMObjectA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMObjectA.h; sourceTree = "<group>"; };
+		4BE0E47227101D1100E34869 /* JMObjectA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMObjectA.m; sourceTree = "<group>"; };
+		4BE0E47427101D1F00E34869 /* JMObjectB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMObjectB.h; sourceTree = "<group>"; };
+		4BE0E47527101D1F00E34869 /* JMObjectB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMObjectB.m; sourceTree = "<group>"; };
 		4BE4808326FC2AAD0065F11E /* JMRuntimeMsgSendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMRuntimeMsgSendVC.h; sourceTree = "<group>"; };
 		4BE4808426FC2AAD0065F11E /* JMRuntimeMsgSendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMRuntimeMsgSendVC.m; sourceTree = "<group>"; };
 		4E55D79F5460D3955B94EFB7 /* Pods-JMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JMDemoTests/Pods-JMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -187,6 +199,7 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4BE0E46A270FF66100E34869 /* 代理 */,
 				18CB8E9E270F454000E61628 /* 内存管理 */,
 				18CB8E98270DE11100E61628 /* RunLoop */,
 				18CB8E8E270DA55A00E61628 /* Blcok */,
@@ -283,6 +296,21 @@
 				4B33160B26FCB16300F3C295 /* JMStudent.m */,
 			);
 			path = Runtime;
+			sourceTree = "<group>";
+		};
+		4BE0E46A270FF66100E34869 /* 代理 */ = {
+			isa = PBXGroup;
+			children = (
+				4BE0E46B270FF67F00E34869 /* JMDelegateVC.h */,
+				4BE0E46C270FF67F00E34869 /* JMDelegateVC.m */,
+				4BE0E46E270FF79C00E34869 /* JMDelegateObject.h */,
+				4BE0E46F270FF79C00E34869 /* JMDelegateObject.m */,
+				4BE0E47127101D1100E34869 /* JMObjectA.h */,
+				4BE0E47227101D1100E34869 /* JMObjectA.m */,
+				4BE0E47427101D1F00E34869 /* JMObjectB.h */,
+				4BE0E47527101D1F00E34869 /* JMObjectB.m */,
+			);
+			path = "代理";
 			sourceTree = "<group>";
 		};
 		5BEB648440B14B83D335BD2E /* Pods */ = {
@@ -549,14 +577,17 @@
 			files = (
 				182D6D2D26A7B7CB007F2019 /* JMCATransitionVC.m in Sources */,
 				182D6CFC26A7B371007F2019 /* ViewController.m in Sources */,
+				4BE0E47627101D1F00E34869 /* JMObjectB.m in Sources */,
 				18CB8E97270DE0F300E61628 /* JMBlock.m in Sources */,
 				18CB8E89270BFBFC00E61628 /* JMKVCVC.m in Sources */,
 				4B2EFF1E26CCAB33008163B6 /* JMGCDVC.m in Sources */,
+				4BE0E47327101D1100E34869 /* JMObjectA.m in Sources */,
 				4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */,
 				18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */,
 				4B1BA0FA270068E500A7BE74 /* JMBlockVC.m in Sources */,
 				4B1BA0FD27019F7D00A7BE74 /* JMKVOVC.m in Sources */,
 				1847F41726BA456F00836E1E /* JMPopVC.m in Sources */,
+				4BE0E46D270FF67F00E34869 /* JMDelegateVC.m in Sources */,
 				182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */,
 				4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */,
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,
@@ -566,6 +597,7 @@
 				18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */,
 				182D6D0726A7B373007F2019 /* main.m in Sources */,
 				4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */,
+				4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */,
 				1847F41426BA452100836E1E /* UIView+KGAnimation.m in Sources */,
 				4B33160926FCB14800F3C295 /* JMPerson.m in Sources */,
 			);

@@ -22,7 +22,8 @@
         @"Block",
         @"KVO",
         @"KVC",
-        @"RunLoop"
+        @"RunLoop",
+        @"Delegate"
     ];
     return data;
 }
