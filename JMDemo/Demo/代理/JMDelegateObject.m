@@ -2,7 +2,7 @@
 //  JMDelegateObject.m
 //  JMDemo
 //
-//  Created by liujiemin on 2021/10/8.
+//  Created by wookde on 2021/10/8.
 //
 
 #import "JMDelegateObject.h"

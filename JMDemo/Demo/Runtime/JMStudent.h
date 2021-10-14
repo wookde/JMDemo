@@ -2,7 +2,7 @@
 //  JMStudent.h
 //  JMDemo
 //
-//  Created by liujiemin on 2021/9/23.
+//  Created by wookde on 2021/9/23.
 //
 
 #import "JMPerson.h"

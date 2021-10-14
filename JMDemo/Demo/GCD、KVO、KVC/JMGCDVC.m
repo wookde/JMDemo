@@ -2,7 +2,7 @@
 //  JMGCDVC.m
 //  JMDemo
 //
-//  Created by 课观教育 on 2021/8/18.
+//  Created by wookde on 2021/8/18.
 //
 
 #import "JMGCDVC.h"

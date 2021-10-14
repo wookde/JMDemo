@@ -2,7 +2,7 @@
 //  UIView+KGAnimation.m
 //  JMDemo
 //
-//  Created by liujiemin on 2021/7/1.
+//  Created by wookde on 2021/7/1.
 //
 
 #import "UIView+KGAnimation.h"

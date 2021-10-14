@@ -2,7 +2,7 @@
 //  NSTimer+JMWeakTimer.h
 //  JMDemo
 //
-//  Created by liujiemin on 2021/10/7.
+//  Created by wookde on 2021/10/7.
 //
 
 #import <Foundation/Foundation.h>
