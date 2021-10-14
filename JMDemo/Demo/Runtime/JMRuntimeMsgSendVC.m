@@ -27,21 +27,10 @@
 //    method_exchangeImplementations(m1, m2);
 //}
 
-+ (void)initialize {
-    NSLog(@"I am JMCat..initialize Function!");
-}
-
-- (void)eat {
-    NSLog(@"%s",__func__);
-}
-
-+ (void)eat {
-    NSLog(@"%s",__func__);
-}
-
-- (void)sleep {
-    NSLog(@"%s",__func__);
-}
+//+ (void)initialize { NSLog(@"I am JMCat..initialize Function!"); }
+- (void)eat { NSLog(@"%s",__func__); }
++ (void)eat { NSLog(@"%s",__func__); }
+- (void)sleep { NSLog(@"%s",__func__); }
 
 @end
 
@@ -59,17 +48,11 @@
 #pragma clang diagnostic ignored "-Wincomplete-implementation"
 @implementation JMAnimal
 
-+ (void)initialize {
-    NSLog(@"I am JMAnimal..initialize Function!");
-}
++ (void)initialize { NSLog(@"I am JMAnimal..initialize Function!"); }
 
-- (void)sleep {
-    NSLog(@"%s",__func__);
-}
+- (void)sleep { NSLog(@"%s",__func__); }
 
-+ (void)sleep {
-    NSLog(@"%s",__func__);
-}
++ (void)sleep { NSLog(@"%s",__func__); }
 
 /*
     消息机制分为3个阶段
@@ -226,11 +209,11 @@
     [super viewDidLoad];
     
     [self prepareUI];
-    
+
     [JMAnimal eat];
     JMAnimal *animal = [[JMAnimal alloc] init];
     [animal eat];
-    
+
     [JMStudent action];
 }
 

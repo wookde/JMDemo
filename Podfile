@@ -9,6 +9,7 @@ target 'JMDemo' do
   pod 'Masonry'
   pod 'pop'
   pod 'AFNetworking'
+  pod 'SDWebImage'
 
   target 'JMDemoTests' do
     inherit! :search_paths
