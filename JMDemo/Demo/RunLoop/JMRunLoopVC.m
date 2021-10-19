@@ -55,4 +55,8 @@
     return _thread;
 }
 
+- (void)dealloc {
+    NSLog(@"%s",__func__);
+}
+
 @end

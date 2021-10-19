@@ -121,4 +121,8 @@
     [self.demoView.layer pop_addAnimation:anRotaion forKey:@"myRotationView"];
 }
 
+- (void)dealloc {
+    NSLog(@"%s",__func__);
+}
+
 @end

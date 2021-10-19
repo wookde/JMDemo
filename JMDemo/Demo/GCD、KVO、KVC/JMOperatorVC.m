@@ -98,4 +98,8 @@
     return _operatorLabel;
 }
 
+- (void)dealloc {
+    NSLog(@"%s",__func__);
+}
+
 @end

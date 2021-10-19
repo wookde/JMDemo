@@ -19,6 +19,8 @@
 #import "JMKVCVC.h"
 #import "JMRunLoopVC.h"
 #import "JMDelegateVC.h"
+#import "JMFrameAndBoundsVC.h"
+#import "JMCALayerVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -44,6 +46,18 @@
     [self.tableView mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self.view);
     }];
+    
+//    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+//        NSInteger counts = [JMData getTableViewData].count;
+//        NSIndexPath *path = [NSIndexPath indexPathForRow:counts-1 inSection:0];
+//        [self.tableView scrollToRowAtIndexPath:path atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+//    });
+    
+    dispatch_after(1.0, dispatch_get_main_queue(), ^{
+        NSInteger counts = [JMData getTableViewData].count;
+        NSIndexPath *path = [NSIndexPath indexPathForRow:counts-1 inSection:0];
+        [self.tableView scrollToRowAtIndexPath:path atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+    });
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
@@ -140,6 +154,18 @@
         case 11:
         {
             JMDelegateVC *vc = [[JMDelegateVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 12:
+        {
+            JMFrameAndBoundsVC *vc = [[JMFrameAndBoundsVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 13:
+        {
+            JMCALayerVC *vc = [[JMCALayerVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

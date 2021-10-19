@@ -23,7 +23,9 @@
         @"KVO",
         @"KVC",
         @"RunLoop",
-        @"Delegate"
+        @"Delegate",
+        @"Frame/Bounds",
+        @"CALayer"
     ];
     return data;
 }

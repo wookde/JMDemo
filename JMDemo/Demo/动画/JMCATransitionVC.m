@@ -138,7 +138,7 @@
 }
 
 - (void)dealloc {
-    NSLog(@"页面被销毁");
+    NSLog(@"%s",__func__);
 }
 
 @end

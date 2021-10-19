@@ -84,7 +84,7 @@ typedef void (^JMBlock)(NSString *str);
 }
 
 - (void)dealloc {
-    NSLog(@"JMBlockVC被释放了");
+    NSLog(@"%s",__func__);
 }
 
 @end

@@ -22,6 +22,8 @@
 		18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8EA3270F45E200E61628 /* NSTimer+JMWeakTimer.m */; };
 		18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */; };
 		434C873C4DDD071A7FA104E6 /* Pods_JMDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DF1C6A6620E0FA84C1BD8F /* Pods_JMDemoTests.framework */; };
+		4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B58C3271D57A40020ECEE /* JMFrameAndBoundsVC.m */; };
+		4B1B58C7271D681E0020ECEE /* JMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B58C6271D681E0020ECEE /* JMView.m */; };
 		4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BA0F626FDCA4300A7BE74 /* JMOperatorVC.m */; };
 		4B1BA0FA270068E500A7BE74 /* JMBlockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BA0F9270068E500A7BE74 /* JMBlockVC.m */; };
 		4B1BA0FD27019F7D00A7BE74 /* JMKVOVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BA0FC27019F7D00A7BE74 /* JMKVOVC.m */; };
@@ -32,6 +34,7 @@
 		4B2EFF1E26CCAB33008163B6 /* JMGCDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B2EFF1D26CCAB33008163B6 /* JMGCDVC.m */; };
 		4B33160926FCB14800F3C295 /* JMPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B33160826FCB14800F3C295 /* JMPerson.m */; };
 		4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B33160B26FCB16300F3C295 /* JMStudent.m */; };
+		4B51D13C271EA5EE00C0CC00 /* JMCALayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B51D13B271EA5EE00C0CC00 /* JMCALayerVC.m */; };
 		4B78F83927140E5700E48F37 /* JMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B78F83827140E5700E48F37 /* JMLagMonitor.m */; };
 		4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */; };
 		4BE0E46D270FF67F00E34869 /* JMDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E46C270FF67F00E34869 /* JMDelegateVC.m */; };
@@ -95,6 +98,10 @@
 		18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMWebviewVC.m; sourceTree = "<group>"; };
 		38734805B0D259A7A18CF75A /* Pods-JMDemo-JMDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo-JMDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B68FB2F09F54AFA09002558 /* Pods-JMDemo-JMDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo-JMDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B1B58C2271D57A40020ECEE /* JMFrameAndBoundsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFrameAndBoundsVC.h; sourceTree = "<group>"; };
+		4B1B58C3271D57A40020ECEE /* JMFrameAndBoundsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMFrameAndBoundsVC.m; sourceTree = "<group>"; };
+		4B1B58C5271D681E0020ECEE /* JMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMView.h; sourceTree = "<group>"; };
+		4B1B58C6271D681E0020ECEE /* JMView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMView.m; sourceTree = "<group>"; };
 		4B1BA0F526FDCA4300A7BE74 /* JMOperatorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMOperatorVC.h; sourceTree = "<group>"; };
 		4B1BA0F626FDCA4300A7BE74 /* JMOperatorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMOperatorVC.m; sourceTree = "<group>"; };
 		4B1BA0F8270068E500A7BE74 /* JMBlockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMBlockVC.h; sourceTree = "<group>"; };
@@ -112,6 +119,8 @@
 		4B33160826FCB14800F3C295 /* JMPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMPerson.m; sourceTree = "<group>"; };
 		4B33160A26FCB16300F3C295 /* JMStudent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMStudent.h; sourceTree = "<group>"; };
 		4B33160B26FCB16300F3C295 /* JMStudent.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMStudent.m; sourceTree = "<group>"; };
+		4B51D13A271EA5EE00C0CC00 /* JMCALayerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMCALayerVC.h; sourceTree = "<group>"; };
+		4B51D13B271EA5EE00C0CC00 /* JMCALayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCALayerVC.m; sourceTree = "<group>"; };
 		4B78F83727140E5700E48F37 /* JMLagMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMLagMonitor.h; sourceTree = "<group>"; };
 		4B78F83827140E5700E48F37 /* JMLagMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMLagMonitor.m; sourceTree = "<group>"; };
 		4BE0E4672705AF8600E34869 /* JMKVOVC+JMCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMKVOVC+JMCategory.h"; sourceTree = "<group>"; };
@@ -190,6 +199,8 @@
 				182D6CF526A7B371007F2019 /* AppDelegate.m */,
 				182D6CFA26A7B371007F2019 /* ViewController.h */,
 				182D6CFB26A7B371007F2019 /* ViewController.m */,
+				1847F41826BA461D00836E1E /* JMData.h */,
+				1847F41926BA461D00836E1E /* JMData.m */,
 				182D6D0026A7B373007F2019 /* Assets.xcassets */,
 				182D6D0226A7B373007F2019 /* LaunchScreen.storyboard */,
 				182D6D0526A7B373007F2019 /* Info.plist */,
@@ -202,6 +213,8 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4B51D139271EA5CD00C0CC00 /* CALayer */,
+				4B1B58C8271E9C100020ECEE /* Frame、Bounds */,
 				4B78F83627140DBB00E48F37 /* GCD、KVO、KVC */,
 				4B78F83527140D8800E48F37 /* 动画 */,
 				4B78F83427140D6D00E48F37 /* Webview */,
@@ -210,8 +223,6 @@
 				18CB8E98270DE11100E61628 /* RunLoop */,
 				18CB8E8E270DA55A00E61628 /* Blcok */,
 				4B33160626FCB12A00F3C295 /* Runtime */,
-				1847F41826BA461D00836E1E /* JMData.h */,
-				1847F41926BA461D00836E1E /* JMData.m */,
 				1847F41126BA451700836E1E /* Category */,
 			);
 			path = Demo;
@@ -257,6 +268,17 @@
 			path = "内存管理";
 			sourceTree = "<group>";
 		};
+		4B1B58C8271E9C100020ECEE /* Frame、Bounds */ = {
+			isa = PBXGroup;
+			children = (
+				4B1B58C2271D57A40020ECEE /* JMFrameAndBoundsVC.h */,
+				4B1B58C3271D57A40020ECEE /* JMFrameAndBoundsVC.m */,
+				4B1B58C5271D681E0020ECEE /* JMView.h */,
+				4B1B58C6271D681E0020ECEE /* JMView.m */,
+			);
+			path = "Frame、Bounds";
+			sourceTree = "<group>";
+		};
 		4B1D771226D7443F00205028 /* appLaunch */ = {
 			isa = PBXGroup;
 			children = (
@@ -286,6 +308,15 @@
 				4B33160B26FCB16300F3C295 /* JMStudent.m */,
 			);
 			path = Runtime;
+			sourceTree = "<group>";
+		};
+		4B51D139271EA5CD00C0CC00 /* CALayer */ = {
+			isa = PBXGroup;
+			children = (
+				4B51D13A271EA5EE00C0CC00 /* JMCALayerVC.h */,
+				4B51D13B271EA5EE00C0CC00 /* JMCALayerVC.m */,
+			);
+			path = CALayer;
 			sourceTree = "<group>";
 		};
 		4B78F83427140D6D00E48F37 /* Webview */ = {
@@ -607,6 +638,7 @@
 				182D6D2D26A7B7CB007F2019 /* JMCATransitionVC.m in Sources */,
 				182D6CFC26A7B371007F2019 /* ViewController.m in Sources */,
 				4BE0E47627101D1F00E34869 /* JMObjectB.m in Sources */,
+				4B51D13C271EA5EE00C0CC00 /* JMCALayerVC.m in Sources */,
 				18CB8E97270DE0F300E61628 /* JMBlock.m in Sources */,
 				18CB8E89270BFBFC00E61628 /* JMKVCVC.m in Sources */,
 				4B2EFF1E26CCAB33008163B6 /* JMGCDVC.m in Sources */,
@@ -623,7 +655,9 @@
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,
 				1847F41A26BA461D00836E1E /* JMData.m in Sources */,
 				18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */,
+				4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */,
 				4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */,
+				4B1B58C7271D681E0020ECEE /* JMView.m in Sources */,
 				18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */,
 				182D6D0726A7B373007F2019 /* main.m in Sources */,
 				4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */,

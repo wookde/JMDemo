@@ -46,5 +46,8 @@
     NSLog(@"抛出异常");
 }
 
+- (void)dealloc {
+    NSLog(@"%s",__func__);
+}
 
 @end
