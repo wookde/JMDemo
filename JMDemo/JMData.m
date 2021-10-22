@@ -25,7 +25,8 @@
         @"RunLoop",
         @"Delegate",
         @"Frame/Bounds",
-        @"CALayer"
+        @"CALayer",
+        @"Banner"
     ];
     return data;
 }

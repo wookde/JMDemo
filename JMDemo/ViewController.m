@@ -21,6 +21,7 @@
 #import "JMDelegateVC.h"
 #import "JMFrameAndBoundsVC.h"
 #import "JMCALayerVC.h"
+#import "JMBannerVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -30,6 +31,16 @@
 @end
 
 @implementation ViewController
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
+}
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    [self.navigationController setNavigationBarHidden:NO animated:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -166,6 +177,12 @@
         case 13:
         {
             JMCALayerVC *vc = [[JMCALayerVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 14:
+        {
+            JMBannerVC *vc = [[JMBannerVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

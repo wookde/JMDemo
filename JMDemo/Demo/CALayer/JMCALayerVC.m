@@ -7,6 +7,7 @@
 
 #import "JMCALayerVC.h"
 #import "JMView.h"
+#import <objc/runtime.h>
 
 @interface JMCALayerVC ()
 
@@ -90,6 +91,9 @@
     
     // 按照轨迹移动
     [self moveOnBezierPath];
+    
+    BOOL canOpen = [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:@"weixin://"]];
+    NSLog(@"%@",canOpen?@"YES":@"NO");
 }
 
 - (void)moveOnBezierPath {
