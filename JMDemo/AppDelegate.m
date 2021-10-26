@@ -7,6 +7,8 @@
 
 #import "AppDelegate.h"
 #import "ViewController.h"
+#import "JMNetworkStatusTool.h"
+#import "JMUploadIdfa.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,10 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    [[JMNetworkStatusTool defaultManager] startNotifier:^(NetworkStatus status) {
+        [JMUpLoadIdfa upload];
+    }];
     
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     ViewController *vc = [[ViewController alloc] init];

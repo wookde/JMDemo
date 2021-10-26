@@ -16,6 +16,7 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.1.0)
   - pop (1.0.12)
+  - Reachability (3.2)
   - SDWebImage (5.11.1):
     - SDWebImage/Core (= 5.11.1)
   - SDWebImage/Core (5.11.1)
@@ -24,6 +25,7 @@ DEPENDENCIES:
   - AFNetworking
   - Masonry
   - pop
+  - Reachability
   - SDWebImage
 
 SPEC REPOS:
@@ -31,14 +33,16 @@ SPEC REPOS:
     - AFNetworking
     - Masonry
     - pop
+    - Reachability
     - SDWebImage
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
 
-PODFILE CHECKSUM: bd60dbf1603cf761e1ba775f69919392125f41a1
+PODFILE CHECKSUM: 2654f252a358b0fc9c770d7a8aa6f1661c87eca5
 
 COCOAPODS: 1.11.2
