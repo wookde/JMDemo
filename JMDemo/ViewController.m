@@ -22,6 +22,7 @@
 #import "JMFrameAndBoundsVC.h"
 #import "JMCALayerVC.h"
 #import "JMBannerVC.h"
+#import "JMNSCodingVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -183,6 +184,12 @@
         case 14:
         {
             JMBannerVC *vc = [[JMBannerVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 15:
+        {
+            JMNSCodingVC *vc = [[JMNSCodingVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;

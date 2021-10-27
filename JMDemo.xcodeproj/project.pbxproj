@@ -40,6 +40,8 @@
 		4B4F98202726B2F000A10819 /* JMUpLoadIdfa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F981F2726B2F000A10819 /* JMUpLoadIdfa.m */; };
 		4B51D13C271EA5EE00C0CC00 /* JMCALayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B51D13B271EA5EE00C0CC00 /* JMCALayerVC.m */; };
 		4B78F83927140E5700E48F37 /* JMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B78F83827140E5700E48F37 /* JMLagMonitor.m */; };
+		4BDEF5942728E544000CEEAD /* JMNSCodingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEF5932728E544000CEEAD /* JMNSCodingVC.m */; };
+		4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEF5962728E55A000CEEAD /* JMNSCodingModel.m */; };
 		4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */; };
 		4BE0E46D270FF67F00E34869 /* JMDelegateVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E46C270FF67F00E34869 /* JMDelegateVC.m */; };
 		4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E46F270FF79C00E34869 /* JMDelegateObject.m */; };
@@ -135,6 +137,10 @@
 		4B51D13B271EA5EE00C0CC00 /* JMCALayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCALayerVC.m; sourceTree = "<group>"; };
 		4B78F83727140E5700E48F37 /* JMLagMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMLagMonitor.h; sourceTree = "<group>"; };
 		4B78F83827140E5700E48F37 /* JMLagMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMLagMonitor.m; sourceTree = "<group>"; };
+		4BDEF5922728E544000CEEAD /* JMNSCodingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNSCodingVC.h; sourceTree = "<group>"; };
+		4BDEF5932728E544000CEEAD /* JMNSCodingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNSCodingVC.m; sourceTree = "<group>"; };
+		4BDEF5952728E55A000CEEAD /* JMNSCodingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNSCodingModel.h; sourceTree = "<group>"; };
+		4BDEF5962728E55A000CEEAD /* JMNSCodingModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNSCodingModel.m; sourceTree = "<group>"; };
 		4BE0E4672705AF8600E34869 /* JMKVOVC+JMCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JMKVOVC+JMCategory.h"; sourceTree = "<group>"; };
 		4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "JMKVOVC+JMCategory.m"; sourceTree = "<group>"; };
 		4BE0E46B270FF67F00E34869 /* JMDelegateVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMDelegateVC.h; sourceTree = "<group>"; };
@@ -225,6 +231,7 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4BDEF5912728E50C000CEEAD /* NSCoding */,
 				4B4F981A2726A02200A10819 /* JMNetworkStatusTool */,
 				4B4F9813272159E300A10819 /* JMBanner */,
 				4B51D139271EA5CD00C0CC00 /* CALayer */,
@@ -392,6 +399,17 @@
 				18CB8E87270BFBFB00E61628 /* JMKVCVC.m */,
 			);
 			path = "GCD、KVO、KVC";
+			sourceTree = "<group>";
+		};
+		4BDEF5912728E50C000CEEAD /* NSCoding */ = {
+			isa = PBXGroup;
+			children = (
+				4BDEF5922728E544000CEEAD /* JMNSCodingVC.h */,
+				4BDEF5932728E544000CEEAD /* JMNSCodingVC.m */,
+				4BDEF5952728E55A000CEEAD /* JMNSCodingModel.h */,
+				4BDEF5962728E55A000CEEAD /* JMNSCodingModel.m */,
+			);
+			path = NSCoding;
 			sourceTree = "<group>";
 		};
 		4BE0E46A270FF66100E34869 /* 代理 */ = {
@@ -692,6 +710,7 @@
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,
 				4B4F981D2726A06100A10819 /* JMNetworkStatusTool.m in Sources */,
 				1847F41A26BA461D00836E1E /* JMData.m in Sources */,
+				4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */,
 				18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */,
 				4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */,
 				4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */,
@@ -703,6 +722,7 @@
 				4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */,
 				4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */,
 				1847F41426BA452100836E1E /* UIView+KGAnimation.m in Sources */,
+				4BDEF5942728E544000CEEAD /* JMNSCodingVC.m in Sources */,
 				4B33160926FCB14800F3C295 /* JMPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

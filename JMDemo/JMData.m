@@ -26,7 +26,8 @@
         @"Delegate",
         @"Frame/Bounds",
         @"CALayer",
-        @"Banner"
+        @"Banner",
+        @"NSCoding"
     ];
     return data;
 }
