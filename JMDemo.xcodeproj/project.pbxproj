@@ -40,6 +40,8 @@
 		4B4F98202726B2F000A10819 /* JMUpLoadIdfa.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B4F981F2726B2F000A10819 /* JMUpLoadIdfa.m */; };
 		4B51D13C271EA5EE00C0CC00 /* JMCALayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B51D13B271EA5EE00C0CC00 /* JMCALayerVC.m */; };
 		4B78F83927140E5700E48F37 /* JMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B78F83827140E5700E48F37 /* JMLagMonitor.m */; };
+		4BD58F10272BC88000E3383B /* JMLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD58F0F272BC88000E3383B /* JMLockVC.m */; };
+		4BD58F14272CF9E900E3383B /* JMInitObjWithStrVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD58F13272CF9E900E3383B /* JMInitObjWithStrVC.m */; };
 		4BDEF5942728E544000CEEAD /* JMNSCodingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEF5932728E544000CEEAD /* JMNSCodingVC.m */; };
 		4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEF5962728E55A000CEEAD /* JMNSCodingModel.m */; };
 		4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */; };
@@ -137,6 +139,10 @@
 		4B51D13B271EA5EE00C0CC00 /* JMCALayerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMCALayerVC.m; sourceTree = "<group>"; };
 		4B78F83727140E5700E48F37 /* JMLagMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMLagMonitor.h; sourceTree = "<group>"; };
 		4B78F83827140E5700E48F37 /* JMLagMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMLagMonitor.m; sourceTree = "<group>"; };
+		4BD58F0E272BC88000E3383B /* JMLockVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMLockVC.h; sourceTree = "<group>"; };
+		4BD58F0F272BC88000E3383B /* JMLockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMLockVC.m; sourceTree = "<group>"; };
+		4BD58F12272CF9E900E3383B /* JMInitObjWithStrVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMInitObjWithStrVC.h; sourceTree = "<group>"; };
+		4BD58F13272CF9E900E3383B /* JMInitObjWithStrVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMInitObjWithStrVC.m; sourceTree = "<group>"; };
 		4BDEF5922728E544000CEEAD /* JMNSCodingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNSCodingVC.h; sourceTree = "<group>"; };
 		4BDEF5932728E544000CEEAD /* JMNSCodingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNSCodingVC.m; sourceTree = "<group>"; };
 		4BDEF5952728E55A000CEEAD /* JMNSCodingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNSCodingModel.h; sourceTree = "<group>"; };
@@ -231,6 +237,7 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4BD58F0D272BC85F00E3383B /* 锁 */,
 				4BDEF5912728E50C000CEEAD /* NSCoding */,
 				4B4F981A2726A02200A10819 /* JMNetworkStatusTool */,
 				4B4F9813272159E300A10819 /* JMBanner */,
@@ -245,6 +252,8 @@
 				18CB8E8E270DA55A00E61628 /* Blcok */,
 				4B33160626FCB12A00F3C295 /* Runtime */,
 				1847F41126BA451700836E1E /* Category */,
+				4BD58F12272CF9E900E3383B /* JMInitObjWithStrVC.h */,
+				4BD58F13272CF9E900E3383B /* JMInitObjWithStrVC.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -399,6 +408,15 @@
 				18CB8E87270BFBFB00E61628 /* JMKVCVC.m */,
 			);
 			path = "GCD、KVO、KVC";
+			sourceTree = "<group>";
+		};
+		4BD58F0D272BC85F00E3383B /* 锁 */ = {
+			isa = PBXGroup;
+			children = (
+				4BD58F0E272BC88000E3383B /* JMLockVC.h */,
+				4BD58F0F272BC88000E3383B /* JMLockVC.m */,
+			);
+			path = "锁";
 			sourceTree = "<group>";
 		};
 		4BDEF5912728E50C000CEEAD /* NSCoding */ = {
@@ -714,7 +732,9 @@
 				18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */,
 				4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */,
 				4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */,
+				4BD58F14272CF9E900E3383B /* JMInitObjWithStrVC.m in Sources */,
 				4B1B58C7271D681E0020ECEE /* JMView.m in Sources */,
+				4BD58F10272BC88000E3383B /* JMLockVC.m in Sources */,
 				4B4F9816272159F900A10819 /* JMBannerVC.m in Sources */,
 				18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */,
 				4B4F98202726B2F000A10819 /* JMUpLoadIdfa.m in Sources */,

@@ -27,7 +27,8 @@
         @"Frame/Bounds",
         @"CALayer",
         @"Banner",
-        @"NSCoding"
+        @"NSCoding",
+        @"InitObjWithStr"
     ];
     return data;
 }

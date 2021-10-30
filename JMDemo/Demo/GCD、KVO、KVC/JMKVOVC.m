@@ -19,6 +19,8 @@ typedef struct  {
 
 @property (nonatomic, copy) NSString *suibian;
 
+@property (nonatomic, copy) NSString *_shenfan;
+
 @end
 
 @implementation JMKVOVC
@@ -30,7 +32,7 @@ typedef struct  {
 // @property 已经帮我们重写了get set 方法 ,而现在我们又全部重写了get set 方法.导致Xcode 认为我们写的这 get set 方法的属性和@propery 声明的属性不是同一个属性了,所以会报错
 @synthesize name = _name;
 
-//@dynamic suibian;
+@dynamic suibian;
 - (NSString *)suibian {
     return objc_getAssociatedObject(self, @selector(suibian));
 }
