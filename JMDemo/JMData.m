@@ -28,7 +28,9 @@
         @"CALayer",
         @"Banner",
         @"NSCoding",
-        @"InitObjWithStr"
+        @"InitObjWithStr",
+        @"手势",
+        @"ScrollView"
     ];
     return data;
 }

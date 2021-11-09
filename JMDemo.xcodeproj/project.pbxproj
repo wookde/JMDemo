@@ -42,6 +42,7 @@
 		4B78F83927140E5700E48F37 /* JMLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B78F83827140E5700E48F37 /* JMLagMonitor.m */; };
 		4BD58F10272BC88000E3383B /* JMLockVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD58F0F272BC88000E3383B /* JMLockVC.m */; };
 		4BD58F14272CF9E900E3383B /* JMInitObjWithStrVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD58F13272CF9E900E3383B /* JMInitObjWithStrVC.m */; };
+		4BD58F1E273287A400E3383B /* JMLockSubVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BD58F1D273287A400E3383B /* JMLockSubVC.m */; };
 		4BDEF5942728E544000CEEAD /* JMNSCodingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEF5932728E544000CEEAD /* JMNSCodingVC.m */; };
 		4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BDEF5962728E55A000CEEAD /* JMNSCodingModel.m */; };
 		4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E4682705AF8600E34869 /* JMKVOVC+JMCategory.m */; };
@@ -49,7 +50,10 @@
 		4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E46F270FF79C00E34869 /* JMDelegateObject.m */; };
 		4BE0E47327101D1100E34869 /* JMObjectA.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E47227101D1100E34869 /* JMObjectA.m */; };
 		4BE0E47627101D1F00E34869 /* JMObjectB.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0E47527101D1F00E34869 /* JMObjectB.m */; };
+		4BE25004273A51C700A1F9D0 /* JMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE25003273A51C700A1F9D0 /* JMScrollView.m */; };
+		4BE2500B273A7BDA00A1F9D0 /* JMGestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2500A273A7BDA00A1F9D0 /* JMGestureVC.m */; };
 		4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4808426FC2AAD0065F11E /* JMRuntimeMsgSendVC.m */; };
+		4BF60E2227391E0500C27027 /* JMScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF60E2127391E0500C27027 /* JMScrollViewVC.m */; };
 		5E8D2BDC28E9EBA55B28D6A6 /* Pods_JMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */; };
 		CDFC66877F6FF75288EAEC2F /* Pods_JMDemo_JMDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -143,6 +147,8 @@
 		4BD58F0F272BC88000E3383B /* JMLockVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMLockVC.m; sourceTree = "<group>"; };
 		4BD58F12272CF9E900E3383B /* JMInitObjWithStrVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMInitObjWithStrVC.h; sourceTree = "<group>"; };
 		4BD58F13272CF9E900E3383B /* JMInitObjWithStrVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMInitObjWithStrVC.m; sourceTree = "<group>"; };
+		4BD58F1C273287A400E3383B /* JMLockSubVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMLockSubVC.h; sourceTree = "<group>"; };
+		4BD58F1D273287A400E3383B /* JMLockSubVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMLockSubVC.m; sourceTree = "<group>"; };
 		4BDEF5922728E544000CEEAD /* JMNSCodingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNSCodingVC.h; sourceTree = "<group>"; };
 		4BDEF5932728E544000CEEAD /* JMNSCodingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNSCodingVC.m; sourceTree = "<group>"; };
 		4BDEF5952728E55A000CEEAD /* JMNSCodingModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNSCodingModel.h; sourceTree = "<group>"; };
@@ -157,8 +163,14 @@
 		4BE0E47227101D1100E34869 /* JMObjectA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMObjectA.m; sourceTree = "<group>"; };
 		4BE0E47427101D1F00E34869 /* JMObjectB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMObjectB.h; sourceTree = "<group>"; };
 		4BE0E47527101D1F00E34869 /* JMObjectB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMObjectB.m; sourceTree = "<group>"; };
+		4BE25002273A51C700A1F9D0 /* JMScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMScrollView.h; sourceTree = "<group>"; };
+		4BE25003273A51C700A1F9D0 /* JMScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMScrollView.m; sourceTree = "<group>"; };
+		4BE25009273A7BDA00A1F9D0 /* JMGestureVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMGestureVC.h; sourceTree = "<group>"; };
+		4BE2500A273A7BDA00A1F9D0 /* JMGestureVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGestureVC.m; sourceTree = "<group>"; };
 		4BE4808326FC2AAD0065F11E /* JMRuntimeMsgSendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMRuntimeMsgSendVC.h; sourceTree = "<group>"; };
 		4BE4808426FC2AAD0065F11E /* JMRuntimeMsgSendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMRuntimeMsgSendVC.m; sourceTree = "<group>"; };
+		4BF60E2027391E0400C27027 /* JMScrollViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMScrollViewVC.h; sourceTree = "<group>"; };
+		4BF60E2127391E0500C27027 /* JMScrollViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMScrollViewVC.m; sourceTree = "<group>"; };
 		4E55D79F5460D3955B94EFB7 /* Pods-JMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JMDemoTests/Pods-JMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemo_JMDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -237,6 +249,9 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4BE2500C273A7DA100A1F9D0 /* 动态创建类 */,
+				4BE25008273A7BA200A1F9D0 /* Gesture(手势) */,
+				4BF60E1F27391DE100C27027 /* ScrollView */,
 				4BD58F0D272BC85F00E3383B /* 锁 */,
 				4BDEF5912728E50C000CEEAD /* NSCoding */,
 				4B4F981A2726A02200A10819 /* JMNetworkStatusTool */,
@@ -252,8 +267,6 @@
 				18CB8E8E270DA55A00E61628 /* Blcok */,
 				4B33160626FCB12A00F3C295 /* Runtime */,
 				1847F41126BA451700836E1E /* Category */,
-				4BD58F12272CF9E900E3383B /* JMInitObjWithStrVC.h */,
-				4BD58F13272CF9E900E3383B /* JMInitObjWithStrVC.m */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -415,6 +428,8 @@
 			children = (
 				4BD58F0E272BC88000E3383B /* JMLockVC.h */,
 				4BD58F0F272BC88000E3383B /* JMLockVC.m */,
+				4BD58F1C273287A400E3383B /* JMLockSubVC.h */,
+				4BD58F1D273287A400E3383B /* JMLockSubVC.m */,
 			);
 			path = "锁";
 			sourceTree = "<group>";
@@ -443,6 +458,35 @@
 				4BE0E47527101D1F00E34869 /* JMObjectB.m */,
 			);
 			path = "代理";
+			sourceTree = "<group>";
+		};
+		4BE25008273A7BA200A1F9D0 /* Gesture(手势) */ = {
+			isa = PBXGroup;
+			children = (
+				4BE25009273A7BDA00A1F9D0 /* JMGestureVC.h */,
+				4BE2500A273A7BDA00A1F9D0 /* JMGestureVC.m */,
+			);
+			path = "Gesture(手势)";
+			sourceTree = "<group>";
+		};
+		4BE2500C273A7DA100A1F9D0 /* 动态创建类 */ = {
+			isa = PBXGroup;
+			children = (
+				4BD58F12272CF9E900E3383B /* JMInitObjWithStrVC.h */,
+				4BD58F13272CF9E900E3383B /* JMInitObjWithStrVC.m */,
+			);
+			path = "动态创建类";
+			sourceTree = "<group>";
+		};
+		4BF60E1F27391DE100C27027 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				4BF60E2027391E0400C27027 /* JMScrollViewVC.h */,
+				4BF60E2127391E0500C27027 /* JMScrollViewVC.m */,
+				4BE25002273A51C700A1F9D0 /* JMScrollView.h */,
+				4BE25003273A51C700A1F9D0 /* JMScrollView.m */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 		5BEB648440B14B83D335BD2E /* Pods */ = {
@@ -725,8 +769,10 @@
 				4BE0E46D270FF67F00E34869 /* JMDelegateVC.m in Sources */,
 				182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */,
 				4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */,
+				4BE25004273A51C700A1F9D0 /* JMScrollView.m in Sources */,
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,
 				4B4F981D2726A06100A10819 /* JMNetworkStatusTool.m in Sources */,
+				4BF60E2227391E0500C27027 /* JMScrollViewVC.m in Sources */,
 				1847F41A26BA461D00836E1E /* JMData.m in Sources */,
 				4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */,
 				18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */,
@@ -738,8 +784,10 @@
 				4B4F9816272159F900A10819 /* JMBannerVC.m in Sources */,
 				18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */,
 				4B4F98202726B2F000A10819 /* JMUpLoadIdfa.m in Sources */,
+				4BE2500B273A7BDA00A1F9D0 /* JMGestureVC.m in Sources */,
 				182D6D0726A7B373007F2019 /* main.m in Sources */,
 				4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */,
+				4BD58F1E273287A400E3383B /* JMLockSubVC.m in Sources */,
 				4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */,
 				1847F41426BA452100836E1E /* UIView+KGAnimation.m in Sources */,
 				4BDEF5942728E544000CEEAD /* JMNSCodingVC.m in Sources */,

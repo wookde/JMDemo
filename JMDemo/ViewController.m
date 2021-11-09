@@ -24,6 +24,8 @@
 #import "JMBannerVC.h"
 #import "JMNSCodingVC.h"
 #import "JMInitObjWithStrVC.h"
+#import "JMScrollViewVC.h"
+#import "JMGestureVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -33,16 +35,6 @@
 @end
 
 @implementation ViewController
-
-- (void)viewWillAppear:(BOOL)animated {
-    [super viewWillAppear:animated];
-    [self.navigationController setNavigationBarHidden:YES animated:YES];
-}
-
-- (void)viewWillDisappear:(BOOL)animated {
-    [super viewWillDisappear:animated];
-    [self.navigationController setNavigationBarHidden:NO animated:YES];
-}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -197,6 +189,18 @@
         case 16:
         {
             JMInitObjWithStrVC *vc = [[JMInitObjWithStrVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 17:
+        {
+            JMGestureVC *vc = [[JMGestureVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 18:
+        {
+            JMScrollViewVC *vc = [[JMScrollViewVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
