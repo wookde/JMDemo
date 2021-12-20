@@ -26,6 +26,7 @@
 #import "JMInitObjWithStrVC.h"
 #import "JMScrollViewVC.h"
 #import "JMGestureVC.h"
+#import "JMQrCodeViewController.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -204,7 +205,12 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
-            
+        case 19:
+        {
+            JMQrCodeViewController *vc = [[JMQrCodeViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
         default:
             break;
     }

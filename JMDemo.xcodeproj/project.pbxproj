@@ -16,6 +16,7 @@
 		1847F41426BA452100836E1E /* UIView+KGAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41326BA452100836E1E /* UIView+KGAnimation.m */; };
 		1847F41726BA456F00836E1E /* JMPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41626BA456F00836E1E /* JMPopVC.m */; };
 		1847F41A26BA461D00836E1E /* JMData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41926BA461D00836E1E /* JMData.m */; };
+		1897D66E277076B000AB932E /* JMQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897D66D277076B000AB932E /* JMQrCodeViewController.m */; };
 		18CB8E89270BFBFC00E61628 /* JMKVCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E87270BFBFB00E61628 /* JMKVCVC.m */; };
 		18CB8E97270DE0F300E61628 /* JMBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E96270DE0F200E61628 /* JMBlock.m */; };
 		18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E9A270DE12600E61628 /* JMRunLoopVC.m */; };
@@ -98,6 +99,8 @@
 		1847F41626BA456F00836E1E /* JMPopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMPopVC.m; sourceTree = "<group>"; };
 		1847F41826BA461D00836E1E /* JMData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMData.h; sourceTree = "<group>"; };
 		1847F41926BA461D00836E1E /* JMData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMData.m; sourceTree = "<group>"; };
+		1897D66C277076B000AB932E /* JMQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQrCodeViewController.h; sourceTree = "<group>"; };
+		1897D66D277076B000AB932E /* JMQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQrCodeViewController.m; sourceTree = "<group>"; };
 		18CB8E87270BFBFB00E61628 /* JMKVCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKVCVC.m; sourceTree = "<group>"; };
 		18CB8E88270BFBFC00E61628 /* JMKVCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKVCVC.h; sourceTree = "<group>"; };
 		18CB8E95270DE0F200E61628 /* JMBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBlock.h; sourceTree = "<group>"; };
@@ -249,6 +252,7 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1897D66B277076B000AB932E /* Qr */,
 				4BE2500C273A7DA100A1F9D0 /* 动态创建类 */,
 				4BE25008273A7BA200A1F9D0 /* Gesture(手势) */,
 				4BF60E1F27391DE100C27027 /* ScrollView */,
@@ -278,6 +282,15 @@
 				1847F41326BA452100836E1E /* UIView+KGAnimation.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		1897D66B277076B000AB932E /* Qr */ = {
+			isa = PBXGroup;
+			children = (
+				1897D66C277076B000AB932E /* JMQrCodeViewController.h */,
+				1897D66D277076B000AB932E /* JMQrCodeViewController.m */,
+			);
+			path = Qr;
 			sourceTree = "<group>";
 		};
 		18CB8E8E270DA55A00E61628 /* Blcok */ = {
@@ -762,6 +775,7 @@
 				4BE0E47327101D1100E34869 /* JMObjectA.m in Sources */,
 				4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */,
 				18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */,
+				1897D66E277076B000AB932E /* JMQrCodeViewController.m in Sources */,
 				4B1BA0FA270068E500A7BE74 /* JMBlockVC.m in Sources */,
 				4B78F83927140E5700E48F37 /* JMLagMonitor.m in Sources */,
 				4B1BA0FD27019F7D00A7BE74 /* JMKVOVC.m in Sources */,
@@ -957,7 +971,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QXGTZKLSP7;
+				DEVELOPMENT_TEAM = AYT6G69CK4;
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv7 armv7s armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JMDemo/JMDemo-Header.h";
 				INFOPLIST_FILE = JMDemo/Info.plist;
@@ -966,7 +980,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekeguan.idfa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -981,7 +995,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = QXGTZKLSP7;
+				DEVELOPMENT_TEAM = AYT6G69CK4;
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv7 armv7s armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JMDemo/JMDemo-Header.h";
 				INFOPLIST_FILE = JMDemo/Info.plist;
@@ -990,7 +1004,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.ekeguan.idfa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiemin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

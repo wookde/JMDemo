@@ -29,7 +29,7 @@ DEPENDENCIES:
   - SDWebImage
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - AFNetworking
     - Masonry
     - pop
@@ -43,6 +43,6 @@ SPEC CHECKSUMS:
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
 
-PODFILE CHECKSUM: 2654f252a358b0fc9c770d7a8aa6f1661c87eca5
+PODFILE CHECKSUM: 2d7b380efac5073d1c6580ec0a68959ecb6d8c83
 
 COCOAPODS: 1.11.2

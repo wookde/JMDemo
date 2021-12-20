@@ -30,7 +30,8 @@
         @"NSCoding",
         @"InitObjWithStr",
         @"手势",
-        @"ScrollView"
+        @"ScrollView",
+        @"扫描二维码",
     ];
     return data;
 }
