@@ -21,6 +21,9 @@
 		18CB8E97270DE0F300E61628 /* JMBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E96270DE0F200E61628 /* JMBlock.m */; };
 		18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E9A270DE12600E61628 /* JMRunLoopVC.m */; };
 		18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8EA3270F45E200E61628 /* NSTimer+JMWeakTimer.m */; };
+		18ED028B293DE04D00ACB9AA /* JMGrayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED028A293DE04D00ACB9AA /* JMGrayVC.m */; };
+		18ED028E293DE0A300ACB9AA /* JMGrayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED028D293DE0A300ACB9AA /* JMGrayCell.m */; };
+		18ED0291293DE0CD00ACB9AA /* JMViewOverLay.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED0290293DE0CD00ACB9AA /* JMViewOverLay.m */; };
 		18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */; };
 		434C873C4DDD071A7FA104E6 /* Pods_JMDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DF1C6A6620E0FA84C1BD8F /* Pods_JMDemoTests.framework */; };
 		4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B58C3271D57A40020ECEE /* JMFrameAndBoundsVC.m */; };
@@ -109,6 +112,12 @@
 		18CB8E9A270DE12600E61628 /* JMRunLoopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRunLoopVC.m; sourceTree = "<group>"; };
 		18CB8EA2270F45E200E61628 /* NSTimer+JMWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+JMWeakTimer.h"; sourceTree = "<group>"; };
 		18CB8EA3270F45E200E61628 /* NSTimer+JMWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JMWeakTimer.m"; sourceTree = "<group>"; };
+		18ED0289293DE04D00ACB9AA /* JMGrayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMGrayVC.h; sourceTree = "<group>"; };
+		18ED028A293DE04D00ACB9AA /* JMGrayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGrayVC.m; sourceTree = "<group>"; };
+		18ED028C293DE0A300ACB9AA /* JMGrayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMGrayCell.h; sourceTree = "<group>"; };
+		18ED028D293DE0A300ACB9AA /* JMGrayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGrayCell.m; sourceTree = "<group>"; };
+		18ED028F293DE0CD00ACB9AA /* JMViewOverLay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMViewOverLay.h; sourceTree = "<group>"; };
+		18ED0290293DE0CD00ACB9AA /* JMViewOverLay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMViewOverLay.m; sourceTree = "<group>"; };
 		18FE54A926AE5F07007FD56B /* JMWebviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMWebviewVC.h; sourceTree = "<group>"; };
 		18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMWebviewVC.m; sourceTree = "<group>"; };
 		38734805B0D259A7A18CF75A /* Pods-JMDemo-JMDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo-JMDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -252,6 +261,7 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				18ED027F293DDFA000ACB9AA /* GrayView */,
 				1897D66B277076B000AB932E /* Qr */,
 				4BE2500C273A7DA100A1F9D0 /* 动态创建类 */,
 				4BE25008273A7BA200A1F9D0 /* Gesture(手势) */,
@@ -322,6 +332,19 @@
 				18CB8EA3270F45E200E61628 /* NSTimer+JMWeakTimer.m */,
 			);
 			path = "内存管理";
+			sourceTree = "<group>";
+		};
+		18ED027F293DDFA000ACB9AA /* GrayView */ = {
+			isa = PBXGroup;
+			children = (
+				18ED0289293DE04D00ACB9AA /* JMGrayVC.h */,
+				18ED028A293DE04D00ACB9AA /* JMGrayVC.m */,
+				18ED028C293DE0A300ACB9AA /* JMGrayCell.h */,
+				18ED028D293DE0A300ACB9AA /* JMGrayCell.m */,
+				18ED028F293DE0CD00ACB9AA /* JMViewOverLay.h */,
+				18ED0290293DE0CD00ACB9AA /* JMViewOverLay.m */,
+			);
+			path = GrayView;
 			sourceTree = "<group>";
 		};
 		4B1B58C8271E9C100020ECEE /* Frame、Bounds */ = {
@@ -592,6 +615,7 @@
 		182D6CE926A7B371007F2019 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JM;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
 					182D6CF026A7B371007F2019 = {
@@ -774,6 +798,7 @@
 				4B2EFF1E26CCAB33008163B6 /* JMGCDVC.m in Sources */,
 				4BE0E47327101D1100E34869 /* JMObjectA.m in Sources */,
 				4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */,
+				18ED028B293DE04D00ACB9AA /* JMGrayVC.m in Sources */,
 				18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */,
 				1897D66E277076B000AB932E /* JMQrCodeViewController.m in Sources */,
 				4B1BA0FA270068E500A7BE74 /* JMBlockVC.m in Sources */,
@@ -789,6 +814,7 @@
 				4BF60E2227391E0500C27027 /* JMScrollViewVC.m in Sources */,
 				1847F41A26BA461D00836E1E /* JMData.m in Sources */,
 				4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */,
+				18ED028E293DE0A300ACB9AA /* JMGrayCell.m in Sources */,
 				18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */,
 				4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */,
 				4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */,
@@ -805,6 +831,7 @@
 				4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */,
 				1847F41426BA452100836E1E /* UIView+KGAnimation.m in Sources */,
 				4BDEF5942728E544000CEEAD /* JMNSCodingVC.m in Sources */,
+				18ED0291293DE0CD00ACB9AA /* JMViewOverLay.m in Sources */,
 				4B33160926FCB14800F3C295 /* JMPerson.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -969,9 +996,11 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AYT6G69CK4;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CVT5K5W5HB;
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv7 armv7s armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JMDemo/JMDemo-Header.h";
 				INFOPLIST_FILE = JMDemo/Info.plist;
@@ -982,6 +1011,8 @@
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiemin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -993,9 +1024,11 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = AYT6G69CK4;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CVT5K5W5HB;
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv7 armv7s armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JMDemo/JMDemo-Header.h";
 				INFOPLIST_FILE = JMDemo/Info.plist;
@@ -1006,6 +1039,8 @@
 				MARKETING_VERSION = 1.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiemin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

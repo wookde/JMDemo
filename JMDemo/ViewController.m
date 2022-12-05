@@ -27,6 +27,7 @@
 #import "JMScrollViewVC.h"
 #import "JMGestureVC.h"
 #import "JMQrCodeViewController.h"
+#import "JMGrayVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -208,6 +209,12 @@
         case 19:
         {
             JMQrCodeViewController *vc = [[JMQrCodeViewController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+        }
+            break;
+        case 20:
+        {
+            JMGrayVC *vc = [[JMGrayVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
