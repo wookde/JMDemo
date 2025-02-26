@@ -25,7 +25,7 @@
     
     NSArray *arr = @[@"banner1",@"banner2",@"banner3"];
     JMBannerView *bannerView = [[JMBannerView alloc] initWithImages:arr];
-    bannerView.interval = 4.0;
+    bannerView.interval = 2.0;
     [self.view addSubview:bannerView];
     
     CGFloat width = self.view.frame.size.width;

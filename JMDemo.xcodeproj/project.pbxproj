@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,8 @@
 		1847F41426BA452100836E1E /* UIView+KGAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41326BA452100836E1E /* UIView+KGAnimation.m */; };
 		1847F41726BA456F00836E1E /* JMPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41626BA456F00836E1E /* JMPopVC.m */; };
 		1847F41A26BA461D00836E1E /* JMData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41926BA461D00836E1E /* JMData.m */; };
+		1892E9A72D67461300546C4A /* JMUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E9A62D67461300546C4A /* JMUserCenter.m */; };
+		1892E9AB2D674E7100546C4A /* JMGroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E9AA2D674E7100546C4A /* JMGroupObject.m */; };
 		1897D66E277076B000AB932E /* JMQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897D66D277076B000AB932E /* JMQrCodeViewController.m */; };
 		18CB8E89270BFBFC00E61628 /* JMKVCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E87270BFBFB00E61628 /* JMKVCVC.m */; };
 		18CB8E97270DE0F300E61628 /* JMBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E96270DE0F200E61628 /* JMBlock.m */; };
@@ -102,6 +104,10 @@
 		1847F41626BA456F00836E1E /* JMPopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMPopVC.m; sourceTree = "<group>"; };
 		1847F41826BA461D00836E1E /* JMData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMData.h; sourceTree = "<group>"; };
 		1847F41926BA461D00836E1E /* JMData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMData.m; sourceTree = "<group>"; };
+		1892E9A52D67461300546C4A /* JMUserCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMUserCenter.h; sourceTree = "<group>"; };
+		1892E9A62D67461300546C4A /* JMUserCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMUserCenter.m; sourceTree = "<group>"; };
+		1892E9A92D674E7100546C4A /* JMGroupObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMGroupObject.h; sourceTree = "<group>"; };
+		1892E9AA2D674E7100546C4A /* JMGroupObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGroupObject.m; sourceTree = "<group>"; };
 		1897D66C277076B000AB932E /* JMQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQrCodeViewController.h; sourceTree = "<group>"; };
 		1897D66D277076B000AB932E /* JMQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQrCodeViewController.m; sourceTree = "<group>"; };
 		18CB8E87270BFBFB00E61628 /* JMKVCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKVCVC.m; sourceTree = "<group>"; };
@@ -261,6 +267,8 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1892E9A82D674E5500546C4A /* dispatch_group */,
+				1892E9A42D6745FA00546C4A /* 多读单写 */,
 				18ED027F293DDFA000ACB9AA /* GrayView */,
 				1897D66B277076B000AB932E /* Qr */,
 				4BE2500C273A7DA100A1F9D0 /* 动态创建类 */,
@@ -292,6 +300,24 @@
 				1847F41326BA452100836E1E /* UIView+KGAnimation.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		1892E9A42D6745FA00546C4A /* 多读单写 */ = {
+			isa = PBXGroup;
+			children = (
+				1892E9A52D67461300546C4A /* JMUserCenter.h */,
+				1892E9A62D67461300546C4A /* JMUserCenter.m */,
+			);
+			path = "多读单写";
+			sourceTree = "<group>";
+		};
+		1892E9A82D674E5500546C4A /* dispatch_group */ = {
+			isa = PBXGroup;
+			children = (
+				1892E9A92D674E7100546C4A /* JMGroupObject.h */,
+				1892E9AA2D674E7100546C4A /* JMGroupObject.m */,
+			);
+			path = dispatch_group;
 			sourceTree = "<group>";
 		};
 		1897D66B277076B000AB932E /* Qr */ = {
@@ -790,6 +816,7 @@
 			files = (
 				182D6D2D26A7B7CB007F2019 /* JMCATransitionVC.m in Sources */,
 				182D6CFC26A7B371007F2019 /* ViewController.m in Sources */,
+				1892E9AB2D674E7100546C4A /* JMGroupObject.m in Sources */,
 				4BE0E47627101D1F00E34869 /* JMObjectB.m in Sources */,
 				4B51D13C271EA5EE00C0CC00 /* JMCALayerVC.m in Sources */,
 				18CB8E97270DE0F300E61628 /* JMBlock.m in Sources */,
@@ -808,6 +835,7 @@
 				4BE0E46D270FF67F00E34869 /* JMDelegateVC.m in Sources */,
 				182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */,
 				4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */,
+				1892E9A72D67461300546C4A /* JMUserCenter.m in Sources */,
 				4BE25004273A51C700A1F9D0 /* JMScrollView.m in Sources */,
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,
 				4B4F981D2726A06100A10819 /* JMNetworkStatusTool.m in Sources */,
@@ -1004,6 +1032,7 @@
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv7 armv7s armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JMDemo/JMDemo-Header.h";
 				INFOPLIST_FILE = JMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1032,6 +1061,7 @@
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv7 armv7s armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JMDemo/JMDemo-Header.h";
 				INFOPLIST_FILE = JMDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

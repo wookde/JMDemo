@@ -67,6 +67,8 @@
 }
 
 - (void)setInterval:(NSTimeInterval)interval {
+    _interval = interval;
+    
     [self.timer fire];
     self.timer = nil;
     
@@ -106,7 +108,7 @@
 }
 
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView {
-    [self.timer setFireDate:[NSDate date]];
+    [self.timer setFireDate:[NSDate dateWithTimeIntervalSinceNow:self.interval]];
 }
 
 #pragma mark - 懒加载

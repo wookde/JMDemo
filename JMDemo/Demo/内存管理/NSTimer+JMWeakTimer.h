@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (NSTimer *)scheduledWeakTimerWithTimeInterval:(NSTimeInterval)interval
                                          target:(id)aTarget
                                        selector:(SEL)aSelector
-                                       userInfo:(id)userInfo
+                                       userInfo:(id __nullable)userInfo
                                         repeats:(BOOL)repeats;
 
 @end
