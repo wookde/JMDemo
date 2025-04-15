@@ -28,6 +28,7 @@
 #import "JMGestureVC.h"
 #import "JMQrCodeViewController.h"
 #import "JMGrayVC.h"
+#import "JMTextViewVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -218,6 +219,12 @@
             [self.navigationController pushViewController:vc animated:YES];
         }
             break;
+        case 21:
+        {
+            JMTextViewVC *vc = [[JMTextViewVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
         default:
             break;
     }

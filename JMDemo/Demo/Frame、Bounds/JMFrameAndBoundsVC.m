@@ -7,6 +7,7 @@
 
 #import "JMFrameAndBoundsVC.h"
 #import "JMView.h"
+#import "JMButton.h"
 
 @interface JMFrameAndBoundsVC ()
 

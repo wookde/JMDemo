@@ -32,7 +32,8 @@
         @"手势",
         @"ScrollView",
         @"扫描二维码",
-        @"灰色页面"
+        @"灰色页面",
+        @"TextView"
     ];
     return data;
 }

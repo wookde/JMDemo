@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		182B2A1B2D81CA4800255FED /* JMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B2A1A2D81CA4800255FED /* JMButton.m */; };
 		182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D6CF526A7B371007F2019 /* AppDelegate.m */; };
 		182D6CFC26A7B371007F2019 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D6CFB26A7B371007F2019 /* ViewController.m */; };
 		182D6D0126A7B373007F2019 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182D6D0026A7B373007F2019 /* Assets.xcassets */; };
@@ -16,6 +17,8 @@
 		1847F41426BA452100836E1E /* UIView+KGAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41326BA452100836E1E /* UIView+KGAnimation.m */; };
 		1847F41726BA456F00836E1E /* JMPopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41626BA456F00836E1E /* JMPopVC.m */; };
 		1847F41A26BA461D00836E1E /* JMData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1847F41926BA461D00836E1E /* JMData.m */; };
+		185A2BE42D845FED0094ED2E /* JMTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A2BE32D845FED0094ED2E /* JMTextView.m */; };
+		187AABD32D845B6600F1E218 /* JMTextViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 187AABD22D845B6600F1E218 /* JMTextViewVC.m */; };
 		1892E9A72D67461300546C4A /* JMUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E9A62D67461300546C4A /* JMUserCenter.m */; };
 		1892E9AB2D674E7100546C4A /* JMGroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E9AA2D674E7100546C4A /* JMGroupObject.m */; };
 		1897D66E277076B000AB932E /* JMQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897D66D277076B000AB932E /* JMQrCodeViewController.m */; };
@@ -84,6 +87,8 @@
 /* Begin PBXFileReference section */
 		02F976ACAAFACD0E9D12EB4A /* Pods-JMDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-JMDemoTests/Pods-JMDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0D590C3B894C0EC1FA60B321 /* Pods-JMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo.release.xcconfig"; path = "Target Support Files/Pods-JMDemo/Pods-JMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		182B2A192D81CA4800255FED /* JMButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMButton.h; sourceTree = "<group>"; };
+		182B2A1A2D81CA4800255FED /* JMButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMButton.m; sourceTree = "<group>"; };
 		182D6CF126A7B371007F2019 /* JMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		182D6CF426A7B371007F2019 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		182D6CF526A7B371007F2019 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +109,10 @@
 		1847F41626BA456F00836E1E /* JMPopVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMPopVC.m; sourceTree = "<group>"; };
 		1847F41826BA461D00836E1E /* JMData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMData.h; sourceTree = "<group>"; };
 		1847F41926BA461D00836E1E /* JMData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMData.m; sourceTree = "<group>"; };
+		185A2BE22D845FED0094ED2E /* JMTextView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMTextView.h; sourceTree = "<group>"; };
+		185A2BE32D845FED0094ED2E /* JMTextView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTextView.m; sourceTree = "<group>"; };
+		187AABD12D845B6600F1E218 /* JMTextViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMTextViewVC.h; sourceTree = "<group>"; };
+		187AABD22D845B6600F1E218 /* JMTextViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTextViewVC.m; sourceTree = "<group>"; };
 		1892E9A52D67461300546C4A /* JMUserCenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMUserCenter.h; sourceTree = "<group>"; };
 		1892E9A62D67461300546C4A /* JMUserCenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMUserCenter.m; sourceTree = "<group>"; };
 		1892E9A92D674E7100546C4A /* JMGroupObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMGroupObject.h; sourceTree = "<group>"; };
@@ -267,6 +276,7 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				187AABCD2D845AF000F1E218 /* TextView */,
 				1892E9A82D674E5500546C4A /* dispatch_group */,
 				1892E9A42D6745FA00546C4A /* 多读单写 */,
 				18ED027F293DDFA000ACB9AA /* GrayView */,
@@ -300,6 +310,17 @@
 				1847F41326BA452100836E1E /* UIView+KGAnimation.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		187AABCD2D845AF000F1E218 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				187AABD12D845B6600F1E218 /* JMTextViewVC.h */,
+				187AABD22D845B6600F1E218 /* JMTextViewVC.m */,
+				185A2BE22D845FED0094ED2E /* JMTextView.h */,
+				185A2BE32D845FED0094ED2E /* JMTextView.m */,
+			);
+			path = TextView;
 			sourceTree = "<group>";
 		};
 		1892E9A42D6745FA00546C4A /* 多读单写 */ = {
@@ -380,6 +401,8 @@
 				4B1B58C3271D57A40020ECEE /* JMFrameAndBoundsVC.m */,
 				4B1B58C5271D681E0020ECEE /* JMView.h */,
 				4B1B58C6271D681E0020ECEE /* JMView.m */,
+				182B2A192D81CA4800255FED /* JMButton.h */,
+				182B2A1A2D81CA4800255FED /* JMButton.m */,
 			);
 			path = "Frame、Bounds";
 			sourceTree = "<group>";
@@ -840,8 +863,10 @@
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,
 				4B4F981D2726A06100A10819 /* JMNetworkStatusTool.m in Sources */,
 				4BF60E2227391E0500C27027 /* JMScrollViewVC.m in Sources */,
+				185A2BE42D845FED0094ED2E /* JMTextView.m in Sources */,
 				1847F41A26BA461D00836E1E /* JMData.m in Sources */,
 				4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */,
+				187AABD32D845B6600F1E218 /* JMTextViewVC.m in Sources */,
 				18ED028E293DE0A300ACB9AA /* JMGrayCell.m in Sources */,
 				18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */,
 				4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */,
@@ -854,6 +879,7 @@
 				4B4F98202726B2F000A10819 /* JMUpLoadIdfa.m in Sources */,
 				4BE2500B273A7BDA00A1F9D0 /* JMGestureVC.m in Sources */,
 				182D6D0726A7B373007F2019 /* main.m in Sources */,
+				182B2A1B2D81CA4800255FED /* JMButton.m in Sources */,
 				4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */,
 				4BD58F1E273287A400E3383B /* JMLockSubVC.m in Sources */,
 				4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */,
@@ -1024,11 +1050,10 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CVT5K5W5HB;
+				DEVELOPMENT_TEAM = AYT6G69CK4;
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv7 armv7s armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JMDemo/JMDemo-Header.h";
 				INFOPLIST_FILE = JMDemo/Info.plist;
@@ -1041,7 +1066,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiemin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -1053,11 +1077,10 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
-				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = CVT5K5W5HB;
+				DEVELOPMENT_TEAM = AYT6G69CK4;
 				EXCLUDED_ARCHS = "EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_simulator__NATIVE_ARCH_64_BIT_x86_64=arm64 arm64e armv7 armv7s armv6 armv8 EXCLUDED_ARCHS=$(inherited) $(EXCLUDED_ARCHS__EFFECTIVE_PLATFORM_SUFFIX_$(EFFECTIVE_PLATFORM_SUFFIX)__NATIVE_ARCH_64_BIT_$(NATIVE_ARCH_64_BIT))";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/JMDemo/JMDemo-Header.h";
 				INFOPLIST_FILE = JMDemo/Info.plist;
@@ -1070,7 +1093,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.jiemin.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wildcard;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
