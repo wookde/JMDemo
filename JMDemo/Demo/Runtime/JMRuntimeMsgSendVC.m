@@ -34,7 +34,7 @@
 
 @end
 
-@interface JMAnimal : NSObject
+@interface JMDog : NSObject
 
 - (void)eat;
 + (void)eat;
@@ -46,9 +46,9 @@
 
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wincomplete-implementation"
-@implementation JMAnimal
+@implementation JMDog
 
-+ (void)initialize { NSLog(@"I am JMAnimal..initialize Function!"); }
++ (void)initialize { NSLog(@"I am JMDog..initialize Function!"); }
 
 - (void)sleep { NSLog(@"%s",__func__); }
 
@@ -210,11 +210,8 @@
     
     [self prepareUI];
 
-    [JMAnimal eat];
-    JMAnimal *animal = [[JMAnimal alloc] init];
-    [animal eat];
-
-    [JMStudent action];
+    JMDog *dog = [[JMDog alloc] init];
+    [dog eat];
 }
 
 - (void)prepareUI {

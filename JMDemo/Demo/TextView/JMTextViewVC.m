@@ -10,8 +10,8 @@
 
 @interface JMTextViewVC ()<UITextViewDelegate>
 
-@property (nonatomic, strong) JMTextView *displayTextView;
-@property (nonatomic, strong) UITextView *inputTextView;
+@property (nonatomic, strong) JMTextView *inputTextView;
+@property (nonatomic, strong) UITextView *displayTextView;
 
 @end
 
@@ -28,14 +28,14 @@
     self.view.backgroundColor = [UIColor whiteColor];
     
     // 使用自定义的 displayTextView
-    self.displayTextView = [[JMTextView alloc] initWithFrame:CGRectMake(20, 100, 300, 80)];
+    self.displayTextView = [[UITextView alloc] initWithFrame:CGRectMake(20, 100, 300, 80)];
     self.displayTextView.text = @"你叫什么名字";
     self.displayTextView.editable = NO;
     self.displayTextView.selectable = YES;  // 允许选择文字
     [self.view addSubview:self.displayTextView];
     
     // 输入框
-    self.inputTextView = [[UITextView alloc] initWithFrame:CGRectMake(20, 200, 300, 80)];
+    self.inputTextView = [[JMTextView alloc] initWithFrame:CGRectMake(20, 200, 300, 80)];
     self.inputTextView.layer.borderWidth = 1;
     self.inputTextView.layer.borderColor = [UIColor grayColor].CGColor;
     self.inputTextView.delegate = self;

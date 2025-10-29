@@ -29,6 +29,7 @@
 #import "JMQrCodeViewController.h"
 #import "JMGrayVC.h"
 #import "JMTextViewVC.h"
+#import "JMMVVMVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -222,6 +223,12 @@
         case 21:
         {
             JMTextViewVC *vc = [[JMTextViewVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 22:
+        {
+            JMMVVMVC *vc = [[JMMVVMVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }

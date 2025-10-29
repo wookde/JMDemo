@@ -26,6 +26,10 @@
 		18CB8E97270DE0F300E61628 /* JMBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E96270DE0F200E61628 /* JMBlock.m */; };
 		18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E9A270DE12600E61628 /* JMRunLoopVC.m */; };
 		18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8EA3270F45E200E61628 /* NSTimer+JMWeakTimer.m */; };
+		18EBC5062EAE00710098F13C /* JMMVVMVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBC5052EAE00710098F13C /* JMMVVMVC.m */; };
+		18EBC5092EAE009F0098F13C /* JMItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBC5082EAE009F0098F13C /* JMItemModel.m */; };
+		18EBC50C2EAE00BD0098F13C /* JMItemViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBC50B2EAE00BD0098F13C /* JMItemViewModel.m */; };
+		18EBC50F2EAE00E10098F13C /* JMItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EBC50E2EAE00E10098F13C /* JMItemView.m */; };
 		18ED028B293DE04D00ACB9AA /* JMGrayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED028A293DE04D00ACB9AA /* JMGrayVC.m */; };
 		18ED028E293DE0A300ACB9AA /* JMGrayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED028D293DE0A300ACB9AA /* JMGrayCell.m */; };
 		18ED0291293DE0CD00ACB9AA /* JMViewOverLay.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED0290293DE0CD00ACB9AA /* JMViewOverLay.m */; };
@@ -127,6 +131,14 @@
 		18CB8E9A270DE12600E61628 /* JMRunLoopVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMRunLoopVC.m; sourceTree = "<group>"; };
 		18CB8EA2270F45E200E61628 /* NSTimer+JMWeakTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+JMWeakTimer.h"; sourceTree = "<group>"; };
 		18CB8EA3270F45E200E61628 /* NSTimer+JMWeakTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+JMWeakTimer.m"; sourceTree = "<group>"; };
+		18EBC5042EAE00710098F13C /* JMMVVMVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMMVVMVC.h; sourceTree = "<group>"; };
+		18EBC5052EAE00710098F13C /* JMMVVMVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMMVVMVC.m; sourceTree = "<group>"; };
+		18EBC5072EAE009F0098F13C /* JMItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMItemModel.h; sourceTree = "<group>"; };
+		18EBC5082EAE009F0098F13C /* JMItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMItemModel.m; sourceTree = "<group>"; };
+		18EBC50A2EAE00BD0098F13C /* JMItemViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMItemViewModel.h; sourceTree = "<group>"; };
+		18EBC50B2EAE00BD0098F13C /* JMItemViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMItemViewModel.m; sourceTree = "<group>"; };
+		18EBC50D2EAE00E10098F13C /* JMItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMItemView.h; sourceTree = "<group>"; };
+		18EBC50E2EAE00E10098F13C /* JMItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMItemView.m; sourceTree = "<group>"; };
 		18ED0289293DE04D00ACB9AA /* JMGrayVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMGrayVC.h; sourceTree = "<group>"; };
 		18ED028A293DE04D00ACB9AA /* JMGrayVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGrayVC.m; sourceTree = "<group>"; };
 		18ED028C293DE0A300ACB9AA /* JMGrayCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMGrayCell.h; sourceTree = "<group>"; };
@@ -299,6 +311,7 @@
 				18CB8E8E270DA55A00E61628 /* Blcok */,
 				4B33160626FCB12A00F3C295 /* Runtime */,
 				1847F41126BA451700836E1E /* Category */,
+				18EBC5032EAE00340098F13C /* MVVM */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -379,6 +392,21 @@
 				18CB8EA3270F45E200E61628 /* NSTimer+JMWeakTimer.m */,
 			);
 			path = "内存管理";
+			sourceTree = "<group>";
+		};
+		18EBC5032EAE00340098F13C /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				18EBC5042EAE00710098F13C /* JMMVVMVC.h */,
+				18EBC5052EAE00710098F13C /* JMMVVMVC.m */,
+				18EBC5072EAE009F0098F13C /* JMItemModel.h */,
+				18EBC5082EAE009F0098F13C /* JMItemModel.m */,
+				18EBC50A2EAE00BD0098F13C /* JMItemViewModel.h */,
+				18EBC50B2EAE00BD0098F13C /* JMItemViewModel.m */,
+				18EBC50D2EAE00E10098F13C /* JMItemView.h */,
+				18EBC50E2EAE00E10098F13C /* JMItemView.m */,
+			);
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 		18ED027F293DDFA000ACB9AA /* GrayView */ = {
@@ -738,9 +766,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -799,9 +831,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JMDemo/Pods-JMDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-JMDemo/Pods-JMDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -854,6 +890,7 @@
 				4B1BA0FA270068E500A7BE74 /* JMBlockVC.m in Sources */,
 				4B78F83927140E5700E48F37 /* JMLagMonitor.m in Sources */,
 				4B1BA0FD27019F7D00A7BE74 /* JMKVOVC.m in Sources */,
+				18EBC50C2EAE00BD0098F13C /* JMItemViewModel.m in Sources */,
 				1847F41726BA456F00836E1E /* JMPopVC.m in Sources */,
 				4BE0E46D270FF67F00E34869 /* JMDelegateVC.m in Sources */,
 				182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */,
@@ -864,12 +901,15 @@
 				4B4F981D2726A06100A10819 /* JMNetworkStatusTool.m in Sources */,
 				4BF60E2227391E0500C27027 /* JMScrollViewVC.m in Sources */,
 				185A2BE42D845FED0094ED2E /* JMTextView.m in Sources */,
+				18EBC5092EAE009F0098F13C /* JMItemModel.m in Sources */,
 				1847F41A26BA461D00836E1E /* JMData.m in Sources */,
+				18EBC50F2EAE00E10098F13C /* JMItemView.m in Sources */,
 				4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */,
 				187AABD32D845B6600F1E218 /* JMTextViewVC.m in Sources */,
 				18ED028E293DE0A300ACB9AA /* JMGrayCell.m in Sources */,
 				18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */,
 				4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */,
+				18EBC5062EAE00710098F13C /* JMMVVMVC.m in Sources */,
 				4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */,
 				4BD58F14272CF9E900E3383B /* JMInitObjWithStrVC.m in Sources */,
 				4B1B58C7271D681E0020ECEE /* JMView.m in Sources */,
