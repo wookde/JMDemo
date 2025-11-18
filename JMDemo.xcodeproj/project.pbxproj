@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180803BB2EC76A0D00B8359A /* FOSKaraOKLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180803BA2EC76A0D00B8359A /* FOSKaraOKLabel.m */; };
+		180803BE2EC76A3500B8359A /* JMKaraOKVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 180803BD2EC76A3500B8359A /* JMKaraOKVC.m */; };
 		182B2A1B2D81CA4800255FED /* JMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B2A1A2D81CA4800255FED /* JMButton.m */; };
 		182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D6CF526A7B371007F2019 /* AppDelegate.m */; };
 		182D6CFC26A7B371007F2019 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182D6CFB26A7B371007F2019 /* ViewController.m */; };
@@ -22,6 +24,7 @@
 		1892E9A72D67461300546C4A /* JMUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E9A62D67461300546C4A /* JMUserCenter.m */; };
 		1892E9AB2D674E7100546C4A /* JMGroupObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1892E9AA2D674E7100546C4A /* JMGroupObject.m */; };
 		1897D66E277076B000AB932E /* JMQrCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1897D66D277076B000AB932E /* JMQrCodeViewController.m */; };
+		18B98DA62ECAD57C0003C6D8 /* MyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B98DA52ECAD57C0003C6D8 /* MyView.m */; };
 		18CB8E89270BFBFC00E61628 /* JMKVCVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E87270BFBFB00E61628 /* JMKVCVC.m */; };
 		18CB8E97270DE0F300E61628 /* JMBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E96270DE0F200E61628 /* JMBlock.m */; };
 		18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CB8E9A270DE12600E61628 /* JMRunLoopVC.m */; };
@@ -33,6 +36,7 @@
 		18ED028B293DE04D00ACB9AA /* JMGrayVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED028A293DE04D00ACB9AA /* JMGrayVC.m */; };
 		18ED028E293DE0A300ACB9AA /* JMGrayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED028D293DE0A300ACB9AA /* JMGrayCell.m */; };
 		18ED0291293DE0CD00ACB9AA /* JMViewOverLay.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED0290293DE0CD00ACB9AA /* JMViewOverLay.m */; };
+		18FC11512EB23F3C0011CCD8 /* JMStoreKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC11502EB23F3C0011CCD8 /* JMStoreKitVC.m */; };
 		18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */; };
 		434C873C4DDD071A7FA104E6 /* Pods_JMDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DF1C6A6620E0FA84C1BD8F /* Pods_JMDemoTests.framework */; };
 		4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B58C3271D57A40020ECEE /* JMFrameAndBoundsVC.m */; };
@@ -91,6 +95,10 @@
 /* Begin PBXFileReference section */
 		02F976ACAAFACD0E9D12EB4A /* Pods-JMDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-JMDemoTests/Pods-JMDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0D590C3B894C0EC1FA60B321 /* Pods-JMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo.release.xcconfig"; path = "Target Support Files/Pods-JMDemo/Pods-JMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		180803B92EC76A0D00B8359A /* FOSKaraOKLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOSKaraOKLabel.h; sourceTree = "<group>"; };
+		180803BA2EC76A0D00B8359A /* FOSKaraOKLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOSKaraOKLabel.m; sourceTree = "<group>"; };
+		180803BC2EC76A3500B8359A /* JMKaraOKVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMKaraOKVC.h; sourceTree = "<group>"; };
+		180803BD2EC76A3500B8359A /* JMKaraOKVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMKaraOKVC.m; sourceTree = "<group>"; };
 		182B2A192D81CA4800255FED /* JMButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMButton.h; sourceTree = "<group>"; };
 		182B2A1A2D81CA4800255FED /* JMButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMButton.m; sourceTree = "<group>"; };
 		182D6CF126A7B371007F2019 /* JMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +131,8 @@
 		1892E9AA2D674E7100546C4A /* JMGroupObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGroupObject.m; sourceTree = "<group>"; };
 		1897D66C277076B000AB932E /* JMQrCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMQrCodeViewController.h; sourceTree = "<group>"; };
 		1897D66D277076B000AB932E /* JMQrCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMQrCodeViewController.m; sourceTree = "<group>"; };
+		18B98DA42ECAD57C0003C6D8 /* MyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyView.h; sourceTree = "<group>"; };
+		18B98DA52ECAD57C0003C6D8 /* MyView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyView.m; sourceTree = "<group>"; };
 		18CB8E87270BFBFB00E61628 /* JMKVCVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKVCVC.m; sourceTree = "<group>"; };
 		18CB8E88270BFBFC00E61628 /* JMKVCVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMKVCVC.h; sourceTree = "<group>"; };
 		18CB8E95270DE0F200E61628 /* JMBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMBlock.h; sourceTree = "<group>"; };
@@ -145,6 +155,8 @@
 		18ED028D293DE0A300ACB9AA /* JMGrayCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMGrayCell.m; sourceTree = "<group>"; };
 		18ED028F293DE0CD00ACB9AA /* JMViewOverLay.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMViewOverLay.h; sourceTree = "<group>"; };
 		18ED0290293DE0CD00ACB9AA /* JMViewOverLay.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMViewOverLay.m; sourceTree = "<group>"; };
+		18FC114F2EB23F3C0011CCD8 /* JMStoreKitVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMStoreKitVC.h; sourceTree = "<group>"; };
+		18FC11502EB23F3C0011CCD8 /* JMStoreKitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMStoreKitVC.m; sourceTree = "<group>"; };
 		18FE54A926AE5F07007FD56B /* JMWebviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMWebviewVC.h; sourceTree = "<group>"; };
 		18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMWebviewVC.m; sourceTree = "<group>"; };
 		38734805B0D259A7A18CF75A /* Pods-JMDemo-JMDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo-JMDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -245,6 +257,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180803B82EC769CE00B8359A /* karaOKLabel */ = {
+			isa = PBXGroup;
+			children = (
+				180803B92EC76A0D00B8359A /* FOSKaraOKLabel.h */,
+				180803BA2EC76A0D00B8359A /* FOSKaraOKLabel.m */,
+				180803BC2EC76A3500B8359A /* JMKaraOKVC.h */,
+				180803BD2EC76A3500B8359A /* JMKaraOKVC.m */,
+			);
+			path = karaOKLabel;
+			sourceTree = "<group>";
+		};
 		182D6CE826A7B371007F2019 = {
 			isa = PBXGroup;
 			children = (
@@ -272,6 +295,8 @@
 				182D6D2A26A7B7AB007F2019 /* Demo */,
 				182D6CF426A7B371007F2019 /* AppDelegate.h */,
 				182D6CF526A7B371007F2019 /* AppDelegate.m */,
+				18B98DA42ECAD57C0003C6D8 /* MyView.h */,
+				18B98DA52ECAD57C0003C6D8 /* MyView.m */,
 				182D6CFA26A7B371007F2019 /* ViewController.h */,
 				182D6CFB26A7B371007F2019 /* ViewController.m */,
 				1847F41826BA461D00836E1E /* JMData.h */,
@@ -312,6 +337,8 @@
 				4B33160626FCB12A00F3C295 /* Runtime */,
 				1847F41126BA451700836E1E /* Category */,
 				18EBC5032EAE00340098F13C /* MVVM */,
+				18FC114B2EB23CF50011CCD8 /* StoreKit */,
+				180803B82EC769CE00B8359A /* karaOKLabel */,
 			);
 			path = Demo;
 			sourceTree = "<group>";
@@ -420,6 +447,15 @@
 				18ED0290293DE0CD00ACB9AA /* JMViewOverLay.m */,
 			);
 			path = GrayView;
+			sourceTree = "<group>";
+		};
+		18FC114B2EB23CF50011CCD8 /* StoreKit */ = {
+			isa = PBXGroup;
+			children = (
+				18FC114F2EB23F3C0011CCD8 /* JMStoreKitVC.h */,
+				18FC11502EB23F3C0011CCD8 /* JMStoreKitVC.m */,
+			);
+			path = StoreKit;
 			sourceTree = "<group>";
 		};
 		4B1B58C8271E9C100020ECEE /* Frame、Bounds */ = {
@@ -887,6 +923,7 @@
 				18ED028B293DE04D00ACB9AA /* JMGrayVC.m in Sources */,
 				18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */,
 				1897D66E277076B000AB932E /* JMQrCodeViewController.m in Sources */,
+				18FC11512EB23F3C0011CCD8 /* JMStoreKitVC.m in Sources */,
 				4B1BA0FA270068E500A7BE74 /* JMBlockVC.m in Sources */,
 				4B78F83927140E5700E48F37 /* JMLagMonitor.m in Sources */,
 				4B1BA0FD27019F7D00A7BE74 /* JMKVOVC.m in Sources */,
@@ -896,6 +933,7 @@
 				182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */,
 				4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */,
 				1892E9A72D67461300546C4A /* JMUserCenter.m in Sources */,
+				180803BE2EC76A3500B8359A /* JMKaraOKVC.m in Sources */,
 				4BE25004273A51C700A1F9D0 /* JMScrollView.m in Sources */,
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,
 				4B4F981D2726A06100A10819 /* JMNetworkStatusTool.m in Sources */,
@@ -903,11 +941,13 @@
 				185A2BE42D845FED0094ED2E /* JMTextView.m in Sources */,
 				18EBC5092EAE009F0098F13C /* JMItemModel.m in Sources */,
 				1847F41A26BA461D00836E1E /* JMData.m in Sources */,
+				18B98DA62ECAD57C0003C6D8 /* MyView.m in Sources */,
 				18EBC50F2EAE00E10098F13C /* JMItemView.m in Sources */,
 				4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */,
 				187AABD32D845B6600F1E218 /* JMTextViewVC.m in Sources */,
 				18ED028E293DE0A300ACB9AA /* JMGrayCell.m in Sources */,
 				18CB8EA4270F45E200E61628 /* NSTimer+JMWeakTimer.m in Sources */,
+				180803BB2EC76A0D00B8359A /* FOSKaraOKLabel.m in Sources */,
 				4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */,
 				18EBC5062EAE00710098F13C /* JMMVVMVC.m in Sources */,
 				4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */,

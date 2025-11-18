@@ -34,7 +34,9 @@
         @"扫描二维码",
         @"灰色页面",
         @"TextView",
-        @"MVVM"
+        @"MVVM",
+        @"StoreKit内购",
+        @"KaraOK-Label"
     ];
     return data;
 }

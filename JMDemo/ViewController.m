@@ -30,6 +30,9 @@
 #import "JMGrayVC.h"
 #import "JMTextViewVC.h"
 #import "JMMVVMVC.h"
+#import "JMStoreKitVC.h"
+#import "JMKaraOKVC.h"
+#import "MyView.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -44,6 +47,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self prepareUI];
+    
 }
 
 - (void)prepareUI {
@@ -229,6 +233,18 @@
         case 22:
         {
             JMMVVMVC *vc = [[JMMVVMVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 23:
+        {
+            JMStoreKitVC *vc = [[JMStoreKitVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 24:
+        {
+            JMKaraOKVC *vc = [[JMKaraOKVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
