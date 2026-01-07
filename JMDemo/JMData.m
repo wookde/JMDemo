@@ -36,7 +36,8 @@
         @"TextView",
         @"MVVM",
         @"StoreKit内购",
-        @"KaraOK-Label"
+        @"KaraOK-Label",
+        @"Integral-Label"
     ];
     return data;
 }

@@ -71,6 +71,8 @@
 		4BE2500B273A7BDA00A1F9D0 /* JMGestureVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE2500A273A7BDA00A1F9D0 /* JMGestureVC.m */; };
 		4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE4808426FC2AAD0065F11E /* JMRuntimeMsgSendVC.m */; };
 		4BF60E2227391E0500C27027 /* JMScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF60E2127391E0500C27027 /* JMScrollViewVC.m */; };
+		502919A82F0CD8900083540C /* YSXIntegralLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919A72F0CD8900083540C /* YSXIntegralLabel.m */; };
+		502919AB2F0CD8BF0083540C /* JMIntegralLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919AA2F0CD8BF0083540C /* JMIntegralLabelVC.m */; };
 		5E8D2BDC28E9EBA55B28D6A6 /* Pods_JMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */; };
 		CDFC66877F6FF75288EAEC2F /* Pods_JMDemo_JMDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -223,6 +225,10 @@
 		4BF60E2027391E0400C27027 /* JMScrollViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMScrollViewVC.h; sourceTree = "<group>"; };
 		4BF60E2127391E0500C27027 /* JMScrollViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMScrollViewVC.m; sourceTree = "<group>"; };
 		4E55D79F5460D3955B94EFB7 /* Pods-JMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JMDemoTests/Pods-JMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		502919A62F0CD8900083540C /* YSXIntegralLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSXIntegralLabel.h; sourceTree = "<group>"; };
+		502919A72F0CD8900083540C /* YSXIntegralLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSXIntegralLabel.m; sourceTree = "<group>"; };
+		502919A92F0CD8BF0083540C /* JMIntegralLabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMIntegralLabelVC.h; sourceTree = "<group>"; };
+		502919AA2F0CD8BF0083540C /* JMIntegralLabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMIntegralLabelVC.m; sourceTree = "<group>"; };
 		5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemo_JMDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DF1C6A6620E0FA84C1BD8F /* Pods_JMDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -313,6 +319,7 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				502919A52F0CD87C0083540C /* Integral-Label */,
 				187AABCD2D845AF000F1E218 /* TextView */,
 				1892E9A82D674E5500546C4A /* dispatch_group */,
 				1892E9A42D6745FA00546C4A /* 多读单写 */,
@@ -638,6 +645,17 @@
 			path = ScrollView;
 			sourceTree = "<group>";
 		};
+		502919A52F0CD87C0083540C /* Integral-Label */ = {
+			isa = PBXGroup;
+			children = (
+				502919A62F0CD8900083540C /* YSXIntegralLabel.h */,
+				502919A72F0CD8900083540C /* YSXIntegralLabel.m */,
+				502919A92F0CD8BF0083540C /* JMIntegralLabelVC.h */,
+				502919AA2F0CD8BF0083540C /* JMIntegralLabelVC.m */,
+			);
+			path = "Integral-Label";
+			sourceTree = "<group>";
+		};
 		5BEB648440B14B83D335BD2E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -936,6 +954,8 @@
 				180803BE2EC76A3500B8359A /* JMKaraOKVC.m in Sources */,
 				4BE25004273A51C700A1F9D0 /* JMScrollView.m in Sources */,
 				4B1D770F26D742EF00205028 /* JMUIWebViewVC.m in Sources */,
+				502919A82F0CD8900083540C /* YSXIntegralLabel.m in Sources */,
+				502919AB2F0CD8BF0083540C /* JMIntegralLabelVC.m in Sources */,
 				4B4F981D2726A06100A10819 /* JMNetworkStatusTool.m in Sources */,
 				4BF60E2227391E0500C27027 /* JMScrollViewVC.m in Sources */,
 				185A2BE42D845FED0094ED2E /* JMTextView.m in Sources */,

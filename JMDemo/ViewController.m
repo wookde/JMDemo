@@ -33,6 +33,7 @@
 #import "JMStoreKitVC.h"
 #import "JMKaraOKVC.h"
 #import "MyView.h"
+#import "JMIntegralLabelVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -245,6 +246,11 @@
         case 24:
         {
             JMKaraOKVC *vc = [[JMKaraOKVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }case 25:
+        {
+            JMIntegralLabelVC *vc = [[JMIntegralLabelVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
