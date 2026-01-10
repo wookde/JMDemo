@@ -38,7 +38,6 @@
 		18ED0291293DE0CD00ACB9AA /* JMViewOverLay.m in Sources */ = {isa = PBXBuildFile; fileRef = 18ED0290293DE0CD00ACB9AA /* JMViewOverLay.m */; };
 		18FC11512EB23F3C0011CCD8 /* JMStoreKitVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FC11502EB23F3C0011CCD8 /* JMStoreKitVC.m */; };
 		18FE54AB26AE5F07007FD56B /* JMWebviewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */; };
-		434C873C4DDD071A7FA104E6 /* Pods_JMDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2DF1C6A6620E0FA84C1BD8F /* Pods_JMDemoTests.framework */; };
 		4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B58C3271D57A40020ECEE /* JMFrameAndBoundsVC.m */; };
 		4B1B58C7271D681E0020ECEE /* JMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1B58C6271D681E0020ECEE /* JMView.m */; };
 		4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B1BA0F626FDCA4300A7BE74 /* JMOperatorVC.m */; };
@@ -73,8 +72,10 @@
 		4BF60E2227391E0500C27027 /* JMScrollViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BF60E2127391E0500C27027 /* JMScrollViewVC.m */; };
 		502919A82F0CD8900083540C /* YSXIntegralLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919A72F0CD8900083540C /* YSXIntegralLabel.m */; };
 		502919AB2F0CD8BF0083540C /* JMIntegralLabelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919AA2F0CD8BF0083540C /* JMIntegralLabelVC.m */; };
+		502919AF2F0E5A200083540C /* JMTouchEventsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919AE2F0E5A200083540C /* JMTouchEventsVC.m */; };
+		502919B22F0E5B720083540C /* JMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919B12F0E5B720083540C /* JMHud.m */; };
+		502919B72F0F7BBD0083540C /* JMViewHiddenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919B62F0F7BBD0083540C /* JMViewHiddenVC.m */; };
 		5E8D2BDC28E9EBA55B28D6A6 /* Pods_JMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */; };
-		CDFC66877F6FF75288EAEC2F /* Pods_JMDemo_JMDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,7 +96,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F976ACAAFACD0E9D12EB4A /* Pods-JMDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-JMDemoTests/Pods-JMDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0D590C3B894C0EC1FA60B321 /* Pods-JMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo.release.xcconfig"; path = "Target Support Files/Pods-JMDemo/Pods-JMDemo.release.xcconfig"; sourceTree = "<group>"; };
 		180803B92EC76A0D00B8359A /* FOSKaraOKLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FOSKaraOKLabel.h; sourceTree = "<group>"; };
 		180803BA2EC76A0D00B8359A /* FOSKaraOKLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FOSKaraOKLabel.m; sourceTree = "<group>"; };
@@ -161,8 +161,6 @@
 		18FC11502EB23F3C0011CCD8 /* JMStoreKitVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMStoreKitVC.m; sourceTree = "<group>"; };
 		18FE54A926AE5F07007FD56B /* JMWebviewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMWebviewVC.h; sourceTree = "<group>"; };
 		18FE54AA26AE5F07007FD56B /* JMWebviewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMWebviewVC.m; sourceTree = "<group>"; };
-		38734805B0D259A7A18CF75A /* Pods-JMDemo-JMDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo-JMDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		3B68FB2F09F54AFA09002558 /* Pods-JMDemo-JMDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo-JMDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		4B1B58C2271D57A40020ECEE /* JMFrameAndBoundsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMFrameAndBoundsVC.h; sourceTree = "<group>"; };
 		4B1B58C3271D57A40020ECEE /* JMFrameAndBoundsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMFrameAndBoundsVC.m; sourceTree = "<group>"; };
 		4B1B58C5271D681E0020ECEE /* JMView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMView.h; sourceTree = "<group>"; };
@@ -224,14 +222,17 @@
 		4BE4808426FC2AAD0065F11E /* JMRuntimeMsgSendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMRuntimeMsgSendVC.m; sourceTree = "<group>"; };
 		4BF60E2027391E0400C27027 /* JMScrollViewVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMScrollViewVC.h; sourceTree = "<group>"; };
 		4BF60E2127391E0500C27027 /* JMScrollViewVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMScrollViewVC.m; sourceTree = "<group>"; };
-		4E55D79F5460D3955B94EFB7 /* Pods-JMDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemoTests.release.xcconfig"; path = "Target Support Files/Pods-JMDemoTests/Pods-JMDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		502919A62F0CD8900083540C /* YSXIntegralLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSXIntegralLabel.h; sourceTree = "<group>"; };
 		502919A72F0CD8900083540C /* YSXIntegralLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSXIntegralLabel.m; sourceTree = "<group>"; };
 		502919A92F0CD8BF0083540C /* JMIntegralLabelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMIntegralLabelVC.h; sourceTree = "<group>"; };
 		502919AA2F0CD8BF0083540C /* JMIntegralLabelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMIntegralLabelVC.m; sourceTree = "<group>"; };
-		5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemo_JMDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		502919AD2F0E5A200083540C /* JMTouchEventsVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMTouchEventsVC.h; sourceTree = "<group>"; };
+		502919AE2F0E5A200083540C /* JMTouchEventsVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMTouchEventsVC.m; sourceTree = "<group>"; };
+		502919B02F0E5B720083540C /* JMHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMHud.h; sourceTree = "<group>"; };
+		502919B12F0E5B720083540C /* JMHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMHud.m; sourceTree = "<group>"; };
+		502919B52F0F7BBD0083540C /* JMViewHiddenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMViewHiddenVC.h; sourceTree = "<group>"; };
+		502919B62F0F7BBD0083540C /* JMViewHiddenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMViewHiddenVC.m; sourceTree = "<group>"; };
 		755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A2DF1C6A6620E0FA84C1BD8F /* Pods_JMDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42282BC0007B33312170BF4 /* Pods-JMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo.debug.xcconfig"; path = "Target Support Files/Pods-JMDemo/Pods-JMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -248,7 +249,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				434C873C4DDD071A7FA104E6 /* Pods_JMDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +256,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDFC66877F6FF75288EAEC2F /* Pods_JMDemo_JMDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +318,9 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				502919B42F0F7BA50083540C /* 视图隐藏 */,
+				502919B32F0E5BA70083540C /* Tools */,
+				502919AC2F0E59E80083540C /* 点击事件视图传递 */,
 				502919A52F0CD87C0083540C /* Integral-Label */,
 				187AABCD2D845AF000F1E218 /* TextView */,
 				1892E9A82D674E5500546C4A /* dispatch_group */,
@@ -656,15 +658,38 @@
 			path = "Integral-Label";
 			sourceTree = "<group>";
 		};
+		502919AC2F0E59E80083540C /* 点击事件视图传递 */ = {
+			isa = PBXGroup;
+			children = (
+				502919AD2F0E5A200083540C /* JMTouchEventsVC.h */,
+				502919AE2F0E5A200083540C /* JMTouchEventsVC.m */,
+			);
+			path = "点击事件视图传递";
+			sourceTree = "<group>";
+		};
+		502919B32F0E5BA70083540C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				502919B02F0E5B720083540C /* JMHud.h */,
+				502919B12F0E5B720083540C /* JMHud.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		502919B42F0F7BA50083540C /* 视图隐藏 */ = {
+			isa = PBXGroup;
+			children = (
+				502919B52F0F7BBD0083540C /* JMViewHiddenVC.h */,
+				502919B62F0F7BBD0083540C /* JMViewHiddenVC.m */,
+			);
+			path = "视图隐藏";
+			sourceTree = "<group>";
+		};
 		5BEB648440B14B83D335BD2E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				F42282BC0007B33312170BF4 /* Pods-JMDemo.debug.xcconfig */,
 				0D590C3B894C0EC1FA60B321 /* Pods-JMDemo.release.xcconfig */,
-				3B68FB2F09F54AFA09002558 /* Pods-JMDemo-JMDemoUITests.debug.xcconfig */,
-				38734805B0D259A7A18CF75A /* Pods-JMDemo-JMDemoUITests.release.xcconfig */,
-				02F976ACAAFACD0E9D12EB4A /* Pods-JMDemoTests.debug.xcconfig */,
-				4E55D79F5460D3955B94EFB7 /* Pods-JMDemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -673,8 +698,6 @@
 			isa = PBXGroup;
 			children = (
 				755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */,
-				5B084AB12D073AB10DC76E0F /* Pods_JMDemo_JMDemoUITests.framework */,
-				A2DF1C6A6620E0FA84C1BD8F /* Pods_JMDemoTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -705,7 +728,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182D6D2326A7B374007F2019 /* Build configuration list for PBXNativeTarget "JMDemoTests" */;
 			buildPhases = (
-				B232613122F75429B2CAC219 /* [CP] Check Pods Manifest.lock */,
 				182D6D0826A7B374007F2019 /* Sources */,
 				182D6D0926A7B374007F2019 /* Frameworks */,
 				182D6D0A26A7B374007F2019 /* Resources */,
@@ -724,11 +746,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 182D6D2626A7B374007F2019 /* Build configuration list for PBXNativeTarget "JMDemoUITests" */;
 			buildPhases = (
-				EFC14D948CA4F669507885DF /* [CP] Check Pods Manifest.lock */,
 				182D6D1326A7B374007F2019 /* Sources */,
 				182D6D1426A7B374007F2019 /* Frameworks */,
 				182D6D1526A7B374007F2019 /* Resources */,
-				35CDCFD248B2ED6135BF1740 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -812,49 +832,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		35CDCFD248B2ED6135BF1740 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMDemo-JMDemoUITests/Pods-JMDemo-JMDemoUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B232613122F75429B2CAC219 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JMDemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		CBD4F05D66452D6E9A85F5EC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -898,28 +875,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JMDemo/Pods-JMDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EFC14D948CA4F669507885DF /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-JMDemo-JMDemoUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -927,6 +882,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				502919B22F0E5B720083540C /* JMHud.m in Sources */,
 				182D6D2D26A7B7CB007F2019 /* JMCATransitionVC.m in Sources */,
 				182D6CFC26A7B371007F2019 /* ViewController.m in Sources */,
 				1892E9AB2D674E7100546C4A /* JMGroupObject.m in Sources */,
@@ -947,8 +903,10 @@
 				4B1BA0FD27019F7D00A7BE74 /* JMKVOVC.m in Sources */,
 				18EBC50C2EAE00BD0098F13C /* JMItemViewModel.m in Sources */,
 				1847F41726BA456F00836E1E /* JMPopVC.m in Sources */,
+				502919AF2F0E5A200083540C /* JMTouchEventsVC.m in Sources */,
 				4BE0E46D270FF67F00E34869 /* JMDelegateVC.m in Sources */,
 				182D6CF626A7B371007F2019 /* AppDelegate.m in Sources */,
+				502919B72F0F7BBD0083540C /* JMViewHiddenVC.m in Sources */,
 				4B33160C26FCB16300F3C295 /* JMStudent.m in Sources */,
 				1892E9A72D67461300546C4A /* JMUserCenter.m in Sources */,
 				180803BE2EC76A3500B8359A /* JMKaraOKVC.m in Sources */,
@@ -1199,7 +1157,6 @@
 		};
 		182D6D2426A7B374007F2019 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02F976ACAAFACD0E9D12EB4A /* Pods-JMDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1219,7 +1176,6 @@
 		};
 		182D6D2526A7B374007F2019 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4E55D79F5460D3955B94EFB7 /* Pods-JMDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -1239,7 +1195,6 @@
 		};
 		182D6D2726A7B374007F2019 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B68FB2F09F54AFA09002558 /* Pods-JMDemo-JMDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JMDemoUITests/Info.plist;
@@ -1257,7 +1212,6 @@
 		};
 		182D6D2826A7B374007F2019 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 38734805B0D259A7A18CF75A /* Pods-JMDemo-JMDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = JMDemoUITests/Info.plist;

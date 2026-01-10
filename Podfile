@@ -12,14 +12,7 @@ target 'JMDemo' do
   pod 'AFNetworking'
   pod 'SDWebImage'
   pod 'Reachability'
-
-  target 'JMDemoTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'JMDemoUITests' do
-    # Pods for testing
-  end
+  pod 'LookinServer'
+  pod 'SVProgressHUD'
 
 end

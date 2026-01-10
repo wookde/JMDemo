@@ -37,7 +37,9 @@
         @"MVVM",
         @"StoreKit内购",
         @"KaraOK-Label",
-        @"Integral-Label"
+        @"Integral-Label",
+        @"点击事件的传递",
+        @"View隐藏的frame"
     ];
     return data;
 }

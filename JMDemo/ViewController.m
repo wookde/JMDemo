@@ -34,6 +34,8 @@
 #import "JMKaraOKVC.h"
 #import "MyView.h"
 #import "JMIntegralLabelVC.h"
+#import "JMTouchEventsVC.h"
+#import "JMViewHiddenVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -248,9 +250,22 @@
             JMKaraOKVC *vc = [[JMKaraOKVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
-        }case 25:
+        }
+        case 25:
         {
             JMIntegralLabelVC *vc = [[JMIntegralLabelVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 26:
+        {
+            JMTouchEventsVC *vc = [[JMTouchEventsVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 27:
+        {
+            JMViewHiddenVC *vc = [[JMViewHiddenVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }
