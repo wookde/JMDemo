@@ -36,6 +36,7 @@
 #import "JMIntegralLabelVC.h"
 #import "JMTouchEventsVC.h"
 #import "JMViewHiddenVC.h"
+#import "JMSwitchMainVC.h"
 
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
@@ -266,6 +267,12 @@
         case 27:
         {
             JMViewHiddenVC *vc = [[JMViewHiddenVC alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            break;
+        }
+        case 28:
+        {
+            JMSwitchMainVC *vc = [[JMSwitchMainVC alloc] init];
             [self.navigationController pushViewController:vc animated:YES];
             break;
         }

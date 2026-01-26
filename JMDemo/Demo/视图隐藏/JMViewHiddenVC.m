@@ -20,6 +20,7 @@
 
 @end
 
+// 主要是视图隐藏对控件布局的影响
 @implementation JMViewHiddenVC
 
 - (void)viewDidLoad {

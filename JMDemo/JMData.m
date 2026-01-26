@@ -39,7 +39,8 @@
         @"KaraOK-Label",
         @"Integral-Label",
         @"点击事件的传递",
-        @"View隐藏的frame"
+        @"View隐藏的frame",
+        @"addChildViewController"
     ];
     return data;
 }

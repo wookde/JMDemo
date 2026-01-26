@@ -75,6 +75,10 @@
 		502919AF2F0E5A200083540C /* JMTouchEventsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919AE2F0E5A200083540C /* JMTouchEventsVC.m */; };
 		502919B22F0E5B720083540C /* JMHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919B12F0E5B720083540C /* JMHud.m */; };
 		502919B72F0F7BBD0083540C /* JMViewHiddenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 502919B62F0F7BBD0083540C /* JMViewHiddenVC.m */; };
+		506DAAD42F12BD0000393C32 /* JMBaseExpenseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 506DAAD32F12BD0000393C32 /* JMBaseExpenseVC.m */; };
+		506DAAD72F12BD3900393C32 /* JMSwitchMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 506DAAD62F12BD3900393C32 /* JMSwitchMainVC.m */; };
+		506DAADA2F12BD5C00393C32 /* JMNormalExpenseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 506DAAD92F12BD5C00393C32 /* JMNormalExpenseVC.m */; };
+		506DAADD2F12BD6D00393C32 /* JMETCExpenseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 506DAADC2F12BD6D00393C32 /* JMETCExpenseVC.m */; };
 		5E8D2BDC28E9EBA55B28D6A6 /* Pods_JMDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -232,6 +236,14 @@
 		502919B12F0E5B720083540C /* JMHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMHud.m; sourceTree = "<group>"; };
 		502919B52F0F7BBD0083540C /* JMViewHiddenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMViewHiddenVC.h; sourceTree = "<group>"; };
 		502919B62F0F7BBD0083540C /* JMViewHiddenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMViewHiddenVC.m; sourceTree = "<group>"; };
+		506DAAD22F12BD0000393C32 /* JMBaseExpenseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMBaseExpenseVC.h; sourceTree = "<group>"; };
+		506DAAD32F12BD0000393C32 /* JMBaseExpenseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMBaseExpenseVC.m; sourceTree = "<group>"; };
+		506DAAD52F12BD3900393C32 /* JMSwitchMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMSwitchMainVC.h; sourceTree = "<group>"; };
+		506DAAD62F12BD3900393C32 /* JMSwitchMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMSwitchMainVC.m; sourceTree = "<group>"; };
+		506DAAD82F12BD5C00393C32 /* JMNormalExpenseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMNormalExpenseVC.h; sourceTree = "<group>"; };
+		506DAAD92F12BD5C00393C32 /* JMNormalExpenseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMNormalExpenseVC.m; sourceTree = "<group>"; };
+		506DAADB2F12BD6D00393C32 /* JMETCExpenseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JMETCExpenseVC.h; sourceTree = "<group>"; };
+		506DAADC2F12BD6D00393C32 /* JMETCExpenseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JMETCExpenseVC.m; sourceTree = "<group>"; };
 		755B003996060F5B8FFBE081 /* Pods_JMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JMDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42282BC0007B33312170BF4 /* Pods-JMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JMDemo.debug.xcconfig"; path = "Target Support Files/Pods-JMDemo/Pods-JMDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -318,6 +330,7 @@
 		182D6D2A26A7B7AB007F2019 /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				506DAAD12F12BCA000393C32 /* addChildViewController */,
 				502919B42F0F7BA50083540C /* 视图隐藏 */,
 				502919B32F0E5BA70083540C /* Tools */,
 				502919AC2F0E59E80083540C /* 点击事件视图传递 */,
@@ -685,6 +698,21 @@
 			path = "视图隐藏";
 			sourceTree = "<group>";
 		};
+		506DAAD12F12BCA000393C32 /* addChildViewController */ = {
+			isa = PBXGroup;
+			children = (
+				506DAAD52F12BD3900393C32 /* JMSwitchMainVC.h */,
+				506DAAD62F12BD3900393C32 /* JMSwitchMainVC.m */,
+				506DAAD22F12BD0000393C32 /* JMBaseExpenseVC.h */,
+				506DAAD32F12BD0000393C32 /* JMBaseExpenseVC.m */,
+				506DAAD82F12BD5C00393C32 /* JMNormalExpenseVC.h */,
+				506DAAD92F12BD5C00393C32 /* JMNormalExpenseVC.m */,
+				506DAADB2F12BD6D00393C32 /* JMETCExpenseVC.h */,
+				506DAADC2F12BD6D00393C32 /* JMETCExpenseVC.m */,
+			);
+			path = addChildViewController;
+			sourceTree = "<group>";
+		};
 		5BEB648440B14B83D335BD2E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -895,6 +923,7 @@
 				4BE0E47327101D1100E34869 /* JMObjectA.m in Sources */,
 				4BE0E4692705AF8600E34869 /* JMKVOVC+JMCategory.m in Sources */,
 				18ED028B293DE04D00ACB9AA /* JMGrayVC.m in Sources */,
+				506DAADD2F12BD6D00393C32 /* JMETCExpenseVC.m in Sources */,
 				18CB8E9B270DE12600E61628 /* JMRunLoopVC.m in Sources */,
 				1897D66E277076B000AB932E /* JMQrCodeViewController.m in Sources */,
 				18FC11512EB23F3C0011CCD8 /* JMStoreKitVC.m in Sources */,
@@ -919,6 +948,7 @@
 				185A2BE42D845FED0094ED2E /* JMTextView.m in Sources */,
 				18EBC5092EAE009F0098F13C /* JMItemModel.m in Sources */,
 				1847F41A26BA461D00836E1E /* JMData.m in Sources */,
+				506DAADA2F12BD5C00393C32 /* JMNormalExpenseVC.m in Sources */,
 				18B98DA62ECAD57C0003C6D8 /* MyView.m in Sources */,
 				18EBC50F2EAE00E10098F13C /* JMItemView.m in Sources */,
 				4BDEF5972728E55A000CEEAD /* JMNSCodingModel.m in Sources */,
@@ -929,6 +959,7 @@
 				4B1B58C4271D57A40020ECEE /* JMFrameAndBoundsVC.m in Sources */,
 				18EBC5062EAE00710098F13C /* JMMVVMVC.m in Sources */,
 				4BE4808526FC2AAD0065F11E /* JMRuntimeMsgSendVC.m in Sources */,
+				506DAAD42F12BD0000393C32 /* JMBaseExpenseVC.m in Sources */,
 				4BD58F14272CF9E900E3383B /* JMInitObjWithStrVC.m in Sources */,
 				4B1B58C7271D681E0020ECEE /* JMView.m in Sources */,
 				4BD58F10272BC88000E3383B /* JMLockVC.m in Sources */,
@@ -940,6 +971,7 @@
 				182B2A1B2D81CA4800255FED /* JMButton.m in Sources */,
 				4B1BA0F726FDCA4300A7BE74 /* JMOperatorVC.m in Sources */,
 				4BD58F1E273287A400E3383B /* JMLockSubVC.m in Sources */,
+				506DAAD72F12BD3900393C32 /* JMSwitchMainVC.m in Sources */,
 				4BE0E470270FF79C00E34869 /* JMDelegateObject.m in Sources */,
 				1847F41426BA452100836E1E /* UIView+KGAnimation.m in Sources */,
 				4BDEF5942728E544000CEEAD /* JMNSCodingVC.m in Sources */,
